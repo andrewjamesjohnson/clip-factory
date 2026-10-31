@@ -1,0 +1,1273 @@
+{
+ "gaming": {
+  "hours": 36,
+  "half_life_h": 18,
+  "topic": "\\b(gta|grand theft|the city|leonida|rockstar|lucia|jason duval|gta ?6|gta ?vi|take-two)\\b",
+  "roster": "watchlist",
+  "auto_feed": 3,
+  "youtube_searches": [
+   {
+    "q": "gta 6",
+    "when": "today"
+   },
+   {
+    "q": "gta 6",
+    "when": "week"
+   },
+   {
+    "q": "gta 6 reaction",
+    "when": "today"
+   },
+   {
+    "q": "reacts to gta 6",
+    "when": "today"
+   },
+   {
+    "q": "gta 6 trailer reaction",
+    "when": "week"
+   },
+   {
+    "q": "kai cenat gta",
+    "when": "week"
+   }
+  ],
+  "youtube_channels": [
+   {
+    "name": "Kai Cenat Live",
+    "person": "Kai Cenat",
+    "slug": "kaicenatlive",
+    "url": "https://www.youtube.com/@KaiCenatLive/videos",
+    "rights": "roster",
+    "kind": "reaction",
+    "weight": 1.2,
+    "min_minutes": 3
+   },
+   {
+    "name": "Live Speedy",
+    "person": "iShowSpeed",
+    "slug": "livespeedy",
+    "url": "https://www.youtube.com/@LiveSpeedy/videos",
+    "rights": "roster",
+    "kind": "reaction",
+    "weight": 1.2,
+    "min_minutes": 3
+   },
+   {
+    "name": "ImStillxQc",
+    "person": "xQc",
+    "slug": "imstillxqc",
+    "url": "https://www.youtube.com/@ImStillxQc/videos",
+    "rights": "roster",
+    "kind": "reaction",
+    "weight": 1.0,
+    "min_minutes": 3
+   },
+   {
+    "name": "Joe Bart VODs",
+    "person": "Joe Bartolozzi",
+    "slug": "joebartvods",
+    "url": "https://www.youtube.com/@JoeBartVOD/videos",
+    "rights": "roster",
+    "kind": "reaction",
+    "weight": 0.8,
+    "min_minutes": 3
+   },
+   {
+    "name": "Cinna LIVE",
+    "person": "Cinna",
+    "slug": "cinnalive",
+    "url": "https://www.youtube.com/@CinnaLIIVE/videos",
+    "rights": "roster",
+    "kind": "reaction",
+    "weight": 0.8,
+    "min_minutes": 3
+   },
+   {
+    "name": "Luke Stephens LIVE",
+    "person": "Luke Stephens",
+    "slug": "lukestephenslive",
+    "url": "https://www.youtube.com/channel/UC5Pi8DHUItNgbGVhjh4kVgQ/videos",
+    "rights": "roster",
+    "kind": "reaction",
+    "weight": 0.8,
+    "min_minutes": 5
+   }
+  ],
+  "rss": [
+   {
+    "name": "Dexerto GTA",
+    "url": "https://www.dexerto.com/gta/feed/"
+   },
+   {
+    "name": "Insider Gaming",
+    "url": "https://insider-gaming.com/feed/"
+   }
+  ],
+  "people": {
+   "kai cenat": 1.0,
+   "ishowspeed": 1.0,
+   "xqc": 0.8,
+   "moistcr1tikal": 0.7,
+   "moist critical": 0.7,
+   "cr1tikal": 0.7,
+   "penguinz0": 0.7,
+   "caseoh": 0.5,
+   "jynxzi": 0.5,
+   "adin ross": 0.4,
+   "flightreacts": 0.4,
+   "flight reacts": 0.4,
+   "timthetatman": 0.4,
+   "duke dennis": 0.4,
+   "fanum": 0.4,
+   "plaqueboymax": 0.4,
+   "joe bartolozzi": 0.4,
+   "joe bart": 0.4,
+   "tgg": 0.4,
+   "jason schreier": 0.4,
+   "summit1g": 0.3,
+   "sketch": 0.3,
+   "n3on": 0.3,
+   "cinna": 0.3,
+   "deji": 0.3,
+   "luke stephens": 0.3,
+   "ohnepixel": 0.3,
+   "angryjoe": 0.3,
+   "angryjoeshow": 0.3,
+   "montanablack": 0.2,
+   "mrbossftw": 0.2,
+   "take-two": 0.3,
+   "strauss zelnick": 0.3,
+   "sam houser": 0.3
+  },
+  "heat_words": {
+   "trailer": 0.5,
+   "delay": 0.6,
+   "delayed": 0.6,
+   "release date": 0.6,
+   "price": 0.4,
+   "pre-order": 0.4,
+   "preorder": 0.4,
+   "gameplay": 0.4,
+   "reveal": 0.4,
+   "revealed": 0.4,
+   "screenshots": 0.3,
+   "map": 0.2,
+   "reacts": 0.4,
+   "reaction": 0.4,
+   "react": 0.3,
+   "rage": 0.5,
+   "raged": 0.5,
+   "crying": 0.4,
+   "cried": 0.4,
+   "screams": 0.5,
+   "screaming": 0.5,
+   "meltdown": 0.5,
+   "insane": 0.3,
+   "crazy": 0.3,
+   "funniest": 0.4,
+   "chaos": 0.4,
+   "banned": 0.5,
+   "arrested": 0.5,
+   "chased": 0.4,
+   "police": 0.3,
+   "cops": 0.3,
+   "record": 0.3,
+   "first time": 0.3,
+   "broke": 0.3,
+   "can't believe": 0.3,
+   "everything you missed": 0.3,
+   "extended look": 0.4,
+   "game informer": 0.4,
+   "radio": 0.3,
+   "hated": 0.5,
+   "hate": 0.4,
+   "overrated": 0.5,
+   "disappointed": 0.4,
+   "disappointing": 0.4,
+   "downgrade": 0.5,
+   "angry": 0.4,
+   "honest": 0.3,
+   "refund": 0.5,
+   "worth it": 0.3,
+   "review": 0.4,
+   "reviews": 0.4,
+   "metacritic": 0.5,
+   "playthrough": 0.5,
+   "part 1": 0.4,
+   "day 1": 0.4,
+   "finally here": 0.4,
+   "midnight": 0.3
+  },
+  "people_in_channel": true,
+  "reactions": {
+   "match": "\\breact(s|ed|ing|ion|ions)?\\b",
+   "event": "\\b(trailer|extended look|first look|reveal(ed)?|screenshots|game informer|gameplay|reviews?)\\b",
+   "half_life_h": 72,
+   "hours": 96,
+   "wave_channels": 5,
+   "wave_window_h": 72
+  },
+  "damp": {
+   "off_topic": {
+    "match": "\\b(gta ?(5|v|iv|4|3|iii|online|sa)|grand theft auto ?(v|iv|iii)|san andreas|fivem|gta ?rp|nopixel)\\b",
+    "unless": "\\b(gta ?(6|vi)|grand theft auto (6|vi)|leonida|lucia|jason duval)\\b",
+    "factor": 0.25
+   },
+   "hashtag_spam": {
+    "min": 2,
+    "factor": 0.3
+   },
+   "non_latin": 0.3,
+   "titles": {
+    "\\b(mashup|compilation|streamers react|youtubers react)\\b": 0.3,
+    "\\b(leak|leaks|leaked|leaker|leakers|leaking)\\b|\\bcyber ?leek": 0.2
+   },
+   "short_s": 120,
+   "short_factor": 0.4,
+   "channels": {
+    "speedy boykins": 0.3
+   }
+  },
+  "outlier_by_views": true,
+  "outlier_cap": 2.0,
+  "feed_kinds": [
+   "streamer",
+   "reaction",
+   "breakdown",
+   "news"
+  ],
+  "feed_min_score": 3.0,
+  "_tuning_note": "2026-10-17 scout intelligence run (playbook: hermes/gaming/skills/gaming-scout/playbook.md). Ground truth state/stats/posts.json: the multi-streamer Trailer 1 reaction drew 31,498, every GTA post over 1,000 is a named face reacting to a Rockstar drop, GTA 5 stunts drew 0. So: named reactions rank first and keep 72 h (reactions), GTA 5 / hashtag / non-Latin / compilations / short non-reactions are turned down (damp), outliers compare views at the same age (outlier_by_views, cap x2), names count in the channel too, auto_feed is 3 a day of streamer/reaction/breakdown/news at score 3+ (never physics or comparison), and launch week 11-18 to 11-28 switches on by itself (phases). 2026-10-19 (Andrew: \"make leak count against a GTA video\"): leak is no longer heat, the gta 6 leaks search is gone, a reaction to a leak is not a reaction to a Rockstar drop, and a title about leaks (or Cyberleek) is turned down x0.2 (damp.titles), so it is never fed; the night never cuts one either (makers gta_maker skip_titles). Rockstar takes down leaked footage hardest (Reference/gta6-account-memo.md 3.1)."
+ },
+ "politics": {
+  "hours": 72,
+  "half_life_h": 18,
+  "topic": "\\b(hearing|testif\\w*|committee|senat\\w*|congress\\w*|rep\\.|house|oversight|confirmation|grill\\w*|subpoena|impeach\\w*|floor|briefing|cabinet|secretary|chairman|ceo|president\\w*|white house|trump|vance|gaggle|air force one|marine one|south lawn|tarmac|oval office|press (secretary|briefing|conference)|presser|bilateral|prime minister|bill signing|executive order|politics|hallway|stakeout|lawmakers?|governor|mayor|candidates?|campaign\\w*|midterms?|primar(y|ies)|town ?hall|(campaign|maga|trump) rall(y|ies)|speech|convention|cpac|debates?|moderator|podcast|interview\\w*|meet the press|face the nation|state of the union|60 minutes|supreme court|scotus|oral arguments?|justices?|leaked (audio|call|recording)|tele-?rally|protest\\w*|arrest\\w*|heckl\\w*|boo(ed|s)|ice (agents?|raids?|facility)|raid(ed|s)?|no kings)\\b",
+  "youtube_searches": [
+   {
+    "q": "senator grills ceo",
+    "when": "week"
+   },
+   {
+    "q": "trump reporters gaggle",
+    "when": "today"
+   },
+   {
+    "q": "white house press briefing",
+    "when": "today"
+   },
+   {
+    "q": "town hall booed",
+    "when": "week"
+   },
+   {
+    "q": "senator podcast interview",
+    "when": "week"
+   },
+   {
+    "q": "senate debate",
+    "when": "today",
+    "until": "2026-11-03"
+   },
+   {
+    "q": "governor debate",
+    "when": "today",
+    "until": "2026-11-03"
+   },
+   {
+    "q": "rally heckler",
+    "when": "today",
+    "until": "2026-11-03"
+   },
+   {
+    "q": "concession speech",
+    "when": "today",
+    "from": "2026-11-03",
+    "until": "2026-11-06"
+   },
+   {
+    "q": "victory speech",
+    "when": "today",
+    "from": "2026-11-03",
+    "until": "2026-11-06"
+   },
+   {
+    "q": "senate hearing",
+    "when": "today",
+    "from": "2026-11-09"
+   },
+   {
+    "q": "house hearing",
+    "when": "today",
+    "from": "2026-11-09"
+   },
+   {
+    "q": "meet the press",
+    "when": "today"
+   },
+   {
+    "q": "face the nation",
+    "when": "today"
+   },
+   {
+    "q": "trump rally",
+    "when": "today",
+    "until": "2026-11-03"
+   },
+   {
+    "q": "hegseth press conference",
+    "when": "week"
+   },
+   {
+    "q": "state department briefing",
+    "when": "week"
+   },
+   {
+    "q": "congressman confronted",
+    "when": "week"
+   },
+   {
+    "q": "michigan senate debate",
+    "when": "today",
+    "from": "2026-10-21",
+    "until": "2026-10-22"
+   },
+   {
+    "q": "supreme court oral argument",
+    "when": "today",
+    "from": "2026-11-02"
+   }
+  ],
+  "youtube_channels": [
+   {
+    "name": "Fox News",
+    "url": "https://www.youtube.com/@FoxNews/videos",
+    "rights": "network"
+   },
+   {
+    "name": "Fox Business",
+    "url": "https://www.youtube.com/@FoxBusiness/videos",
+    "rights": "network"
+   },
+   {
+    "name": "CNN",
+    "url": "https://www.youtube.com/@CNN/videos",
+    "rights": "network",
+    "weight": 0.8
+   },
+   {
+    "name": "MS NOW",
+    "url": "https://www.youtube.com/@MSNOW/videos",
+    "rights": "network",
+    "weight": 0.6
+   },
+   {
+    "name": "NBC News",
+    "url": "https://www.youtube.com/@NBCNews/videos",
+    "rights": "network"
+   },
+   {
+    "name": "CBS News",
+    "url": "https://www.youtube.com/@CBSNews/videos",
+    "rights": "network"
+   },
+   {
+    "name": "ABC News",
+    "url": "https://www.youtube.com/@ABCNews/videos",
+    "rights": "network"
+   },
+   {
+    "name": "Newsmax",
+    "url": "https://www.youtube.com/@NewsmaxTV/videos",
+    "rights": "network",
+    "weight": 0.7
+   },
+   {
+    "name": "NewsNation",
+    "url": "https://www.youtube.com/@NewsNation/videos",
+    "rights": "network",
+    "weight": 0.7
+   },
+   {
+    "name": "C-SPAN",
+    "url": "https://www.youtube.com/@CSPAN/videos",
+    "rights": "cspan"
+   },
+   {
+    "name": "Forbes Breaking News",
+    "url": "https://www.youtube.com/@ForbesBreakingNews/videos",
+    "rights": "network",
+    "weight": 1.2
+   },
+   {
+    "name": "The Hill",
+    "url": "https://www.youtube.com/@thehill/videos",
+    "rights": "network",
+    "weight": 0.6
+   },
+   {
+    "name": "Senator Elizabeth Warren",
+    "url": "https://www.youtube.com/channel/UCTH9zV8Imw09J5bOoTR18_A/videos",
+    "rights": "member"
+   },
+   {
+    "name": "Senator John Kennedy",
+    "url": "https://www.youtube.com/@SenatorJohnKennedy/videos",
+    "rights": "member"
+   },
+   {
+    "name": "Senator Josh Hawley",
+    "url": "https://www.youtube.com/@senatorjoshhawley/videos",
+    "rights": "member"
+   },
+   {
+    "name": "Senator Ted Cruz",
+    "url": "https://www.youtube.com/@SenTedCruz/videos",
+    "rights": "member"
+   },
+   {
+    "name": "Senator Bernie Sanders",
+    "url": "https://www.youtube.com/@SenatorSanders/videos",
+    "rights": "member"
+   },
+   {
+    "name": "Senator Cory Booker",
+    "url": "https://www.youtube.com/@SenBooker/videos",
+    "rights": "member"
+   },
+   {
+    "name": "Alexandria Ocasio-Cortez",
+    "url": "https://www.youtube.com/@AOC/videos",
+    "rights": "member"
+   },
+   {
+    "name": "Rep. Jasmine Crockett",
+    "url": "https://www.youtube.com/channel/UCZsTkJVl4vIamsBd6t8B-OA/videos",
+    "rights": "member"
+   },
+   {
+    "name": "Congresswoman Nancy Mace",
+    "url": "https://www.youtube.com/@repnancymace/videos",
+    "rights": "member"
+   },
+   {
+    "name": "Oversight Dems",
+    "url": "https://www.youtube.com/channel/UCXSlyao4qkUFiPqghptHtZA/videos",
+    "rights": "committee"
+   },
+   {
+    "name": "GOP Oversight",
+    "url": "https://www.youtube.com/channel/UCn8TJ6Tyq2aGvhybME_itDQ/videos",
+    "rights": "committee"
+   },
+   {
+    "name": "House Committee on the Judiciary",
+    "url": "https://www.youtube.com/channel/UCVvv3JRCVQAl6ovogDum4hA/videos",
+    "rights": "committee"
+   },
+   {
+    "name": "House Judiciary GOP",
+    "url": "https://www.youtube.com/channel/UCdvbanLNRlC0Af1QWeJ9foA/videos",
+    "rights": "committee"
+   },
+   {
+    "name": "House Financial Services",
+    "url": "https://www.youtube.com/channel/UCiGw0gRK-daU7Xv4oDMr9Hg/videos",
+    "rights": "committee"
+   },
+   {
+    "name": "Senate Banking Committee",
+    "url": "https://www.youtube.com/channel/UCdGVNfn42jsovvTUgj6N-dA/videos",
+    "rights": "committee"
+   },
+   {
+    "name": "The White House (streams)",
+    "url": "https://www.youtube.com/@WhiteHouse/streams",
+    "rights": "white-house",
+    "weight": 1.4
+   },
+   {
+    "name": "The White House",
+    "url": "https://www.youtube.com/channel/UCYxRlFDqcWM4y7FfpiAN3KQ/videos",
+    "rights": "white-house",
+    "weight": 1.4
+   },
+   {
+    "name": "TMZ Clips (TMZ DC)",
+    "url": "https://www.youtube.com/channel/UC9_3h1t3FEvhC-1toDU3fww/videos",
+    "rights": "network"
+   },
+   {
+    "name": "Theo Von",
+    "url": "https://www.youtube.com/channel/UC5AQEUAwCh1sGDvkQtkDWUQ/videos",
+    "rights": "podcast"
+   },
+   {
+    "name": "Tucker Carlson",
+    "url": "https://www.youtube.com/channel/UCGttrUON87gWfU6dMWm1fcA/videos",
+    "rights": "podcast"
+   },
+   {
+    "name": "PBD Podcast",
+    "url": "https://www.youtube.com/channel/UCGX7nGXpz-CmO_Arg-cgJ7A/videos",
+    "rights": "podcast"
+   },
+   {
+    "name": "U.S. Department of State",
+    "url": "https://www.youtube.com/channel/UC6ZhpmNnLxlOYipqh8wbM3A/videos",
+    "rights": "federal",
+    "weight": 1.2
+   },
+   {
+    "name": "Department of War",
+    "url": "https://www.youtube.com/channel/UCpuofAxlrUAgnu7QEwKQwxw/videos",
+    "rights": "federal",
+    "weight": 1.2
+   },
+   {
+    "name": "U.S. Department of Homeland Security",
+    "url": "https://www.youtube.com/channel/UCpkaznWj_9PIVgO0BRKXu8w/videos",
+    "rights": "federal"
+   },
+   {
+    "name": "The Justice Department",
+    "url": "https://www.youtube.com/channel/UCJJGP5tnAqV5iaxpXj_J2Qw/videos",
+    "rights": "federal"
+   },
+   {
+    "name": "FBI",
+    "url": "https://www.youtube.com/channel/UCpE5S-iuV221aM4vxaHbU6w/videos",
+    "rights": "federal",
+    "weight": 0.8
+   },
+   {
+    "name": "Federal Reserve",
+    "url": "https://www.youtube.com/channel/UCAzhpt9DmG6PnHXjmJTvRGQ/videos",
+    "rights": "federal",
+    "weight": 0.8
+   },
+   {
+    "name": "Senate Democrats",
+    "url": "https://www.youtube.com/channel/UCpgILFSGxY-9mQR79fLSt2A/videos",
+    "rights": "committee"
+   },
+   {
+    "name": "Senate Republicans",
+    "url": "https://www.youtube.com/channel/UCAdyfSY2oRwNIB4LddDYZJA/videos",
+    "rights": "committee"
+   },
+   {
+    "name": "House Democrats",
+    "url": "https://www.youtube.com/channel/UCxhAOE8DbC8iVNhAgQw5eNg/videos",
+    "rights": "committee"
+   },
+   {
+    "name": "House Republicans",
+    "url": "https://www.youtube.com/channel/UC4czmSY7dsAiLFseD313tKA/videos",
+    "rights": "committee"
+   },
+   {
+    "name": "Right Side Broadcasting Network",
+    "url": "https://www.youtube.com/channel/UCHqC-yWZ1kri4YzwRSt6RGQ/videos",
+    "rights": "independent",
+    "weight": 0.9
+   },
+   {
+    "name": "Face the Nation",
+    "url": "https://www.youtube.com/channel/UC2x_qNZXKDxNP1j4jvHATRQ/videos",
+    "rights": "network"
+   },
+   {
+    "name": "60 Minutes",
+    "url": "https://www.youtube.com/channel/UCsN32BtMd0IoByjJRNF12cw/videos",
+    "rights": "network",
+    "weight": 0.8
+   },
+   {
+    "name": "Associated Press",
+    "url": "https://www.youtube.com/channel/UC52X5wxOL_s5yw0dQk7NtgA/videos",
+    "rights": "network",
+    "weight": 0.8
+   },
+   {
+    "name": "PowerfulJRE (Joe Rogan)",
+    "url": "https://www.youtube.com/channel/UCzQUP1qoWDoEbmsQxvdjxgQ/videos",
+    "rights": "podcast",
+    "_note": "yt-dlp backup while YouTube RSS fails (10-17 18:40); remove once the scout's RSS fallback lands"
+   },
+   {
+    "name": "Megyn Kelly",
+    "url": "https://www.youtube.com/channel/UCzJXNzqz6VMHSNInQt_7q6w/videos",
+    "rights": "podcast",
+    "_note": "yt-dlp backup while YouTube RSS fails (10-17 18:40); remove once the scout's RSS fallback lands"
+   },
+   {
+    "name": "Breaking Points",
+    "url": "https://www.youtube.com/channel/UCDRIjKy6eZOvKtOELtTdeUA/videos",
+    "rights": "podcast",
+    "_note": "yt-dlp backup while YouTube RSS fails (10-17 18:40); remove once the scout's RSS fallback lands"
+   },
+   {
+    "name": "Piers Morgan Uncensored",
+    "url": "https://www.youtube.com/channel/UCatt7TBjfBkiJWx8khav_Gg/videos",
+    "rights": "podcast",
+    "_note": "yt-dlp backup while YouTube RSS fails (10-17 18:40); remove once the scout's RSS fallback lands"
+   },
+   {
+    "name": "LiveNOW from FOX",
+    "url": "https://www.youtube.com/channel/UCJg9wBPyKMNA5sRDnvzmkdg/videos",
+    "rights": "network",
+    "weight": 1.1
+   }
+  ],
+  "rss": [
+   {
+    "name": "Fox News Politics",
+    "url": "https://moxie.foxnews.com/google-publisher/politics.xml"
+   },
+   {
+    "name": "NBC News Politics",
+    "url": "https://feeds.nbcnews.com/nbcnews/public/politics"
+   },
+   {
+    "name": "CBS News Politics",
+    "url": "https://www.cbsnews.com/latest/rss/politics"
+   },
+   {
+    "name": "ABC News Politics",
+    "url": "https://abcnews.go.com/abcnews/politicsheadlines"
+   },
+   {
+    "name": "The Hill",
+    "url": "https://thehill.com/homenews/feed/"
+   },
+   {
+    "name": "Politico",
+    "url": "https://rss.politico.com/politics-news.xml"
+   },
+   {
+    "name": "White House videos",
+    "url": "https://www.whitehouse.gov/videos/feed/",
+    "rights": "white-house"
+   },
+   {
+    "name": "White House briefings and statements",
+    "url": "https://www.whitehouse.gov/briefings-statements/feed/",
+    "rights": "white-house"
+   },
+   {
+    "name": "Federal Reserve monetary policy",
+    "url": "https://www.federalreserve.gov/feeds/press_monetary.xml",
+    "rights": "federal"
+   },
+   {
+    "name": "SCOTUSblog",
+    "url": "https://www.scotusblog.com/feed/"
+   },
+   {
+    "name": "Senate floor log",
+    "url": "https://dailypress.senate.gov/feed/",
+    "rights": "federal"
+   },
+   {
+    "name": "PowerfulJRE (Joe Rogan) videos",
+    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCzQUP1qoWDoEbmsQxvdjxgQ",
+    "rights": "podcast"
+   },
+   {
+    "name": "Megyn Kelly videos",
+    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCzJXNzqz6VMHSNInQt_7q6w",
+    "rights": "podcast"
+   },
+   {
+    "name": "Piers Morgan Uncensored videos",
+    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCatt7TBjfBkiJWx8khav_Gg",
+    "rights": "podcast"
+   },
+   {
+    "name": "Breaking Points videos",
+    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCDRIjKy6eZOvKtOELtTdeUA",
+    "rights": "podcast"
+   },
+   {
+    "name": "Shawn Ryan Show videos",
+    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCkoujZQZatbqy4KGcgjpVxQ",
+    "rights": "podcast"
+   },
+   {
+    "name": "US House Clerk (floor) videos",
+    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCqU8qiVHYmLsF0JIMByCTvw",
+    "rights": "federal"
+   },
+   {
+    "name": "AOC videos and Shorts",
+    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCElqfal0wzzpLsHlRuqZjaA",
+    "rights": "member"
+   },
+   {
+    "name": "Senator John Kennedy videos and Shorts",
+    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCDgjkA5Y_npoxeUiSW18JZQ",
+    "rights": "member"
+   },
+   {
+    "name": "C-SPAN videos and Shorts",
+    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCb--64Gl51jIEVE-GLDAVTg",
+    "rights": "cspan"
+   },
+   {
+    "name": "Forbes Breaking News videos and Shorts",
+    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCg40OxZ1GYh3u3jBntB6DLg",
+    "rights": "network",
+    "weight": 1.2
+   },
+   {
+    "name": "LiveNOW from FOX videos",
+    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCJg9wBPyKMNA5sRDnvzmkdg",
+    "rights": "network",
+    "weight": 1.1
+   },
+   {
+    "name": "PBS NewsHour videos",
+    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC6ZFN9Tx6xh-skXCuRHCDpQ",
+    "rights": "network"
+   }
+  ],
+  "rights_by_channel": {
+   "network": [
+    "fox",
+    "cnn",
+    "ms now",
+    "msnbc",
+    "nbc",
+    "cbs",
+    "abc news",
+    "newsmax",
+    "newsnation",
+    "cnbc",
+    "bloomberg",
+    "wall street journal",
+    "washington post",
+    "new york times",
+    "pbs newshour",
+    "sky news",
+    "nbc4",
+    "fox 10",
+    "wfla",
+    "ktla",
+    "tmz",
+    "livenow",
+    "associated press",
+    "face the nation",
+    "60 minutes",
+    "wood tv8",
+    "fox 2",
+    "komo",
+    "new york post",
+    "the daily show",
+    "news channel nebraska",
+    "kmtv",
+    "first alert 6",
+    "11alive",
+    "atlanta news first",
+    "guardian news",
+    "usa today",
+    "global news",
+    "19 news",
+    "forbes breaking news",
+    "the hill"
+   ],
+   "cspan": [
+    "c-span",
+    "cspan"
+   ],
+   "member": [
+    "senator ",
+    "sen. ",
+    "rep. ",
+    "congressman",
+    "congresswoman",
+    "representative ",
+    "alexandria ocasio-cortez",
+    "repthomasmassie"
+   ],
+   "committee": [
+    "committee",
+    "oversight dems",
+    "gop oversight",
+    "judiciary gop",
+    "financial services",
+    "senate banking",
+    "democrats",
+    "republicans"
+   ],
+   "white-house": [
+    "the white house"
+   ],
+   "federal": [
+    "federal reserve",
+    "department of state",
+    "department of war",
+    "homeland security",
+    "justice department",
+    "fbi",
+    "us house clerk",
+    "supreme court"
+   ],
+   "podcast": [
+    "theo von",
+    "powerfuljre",
+    "tucker carlson",
+    "megyn kelly",
+    "pbd podcast",
+    "shawn ryan",
+    "flagrant",
+    "all-in",
+    "breaking points",
+    "pod save america",
+    "the bulwark",
+    "piers morgan",
+    "charlie kirk",
+    "zeteo"
+   ],
+   "independent": [
+    "right side broadcasting",
+    "status coup",
+    "unicorn riot",
+    "news2share",
+    "channel 5",
+    "daily caller",
+    "thedc",
+    "benny johnson",
+    "turning point",
+    "jubilee",
+    "indivisible",
+    "meidastouch",
+    "roll call factbase"
+   ]
+  },
+  "network_in_title": [
+   "hannity",
+   "fox news",
+   "fox business",
+   "watters",
+   "ingraham",
+   "gutfeld",
+   "bartiromo",
+   "kudlow",
+   "varney",
+   "on cnn",
+   "cnn's",
+   "msnbc",
+   "ms now",
+   "newsmax",
+   "newsnation",
+   "meet the press",
+   "face the nation",
+   "this week with",
+   "the view",
+   "morning joe",
+   "on fox",
+   "fox &",
+   "60 minutes",
+   "state of the union",
+   "fox news sunday",
+   "sunday morning futures",
+   "the source",
+   "tmz",
+   "on cbs",
+   "on abc",
+   "on nbc",
+   "on the story",
+   "the story with",
+   "jesse watters",
+   "america's newsroom",
+   "mornings with maria"
+  ],
+  "people": {
+   "warren": 0.8,
+   "kennedy": 0.5,
+   "hawley": 0.7,
+   "porter": 0.4,
+   "ocasio-cortez": 0.5,
+   "aoc": 0.5,
+   "crockett": 0.5,
+   "greene": 0.4,
+   "sanders": 0.4,
+   "cruz": 0.4,
+   "waters": 0.4,
+   "massie": 0.3,
+   "luna": 0.3,
+   "mace": 0.3,
+   "schiff": 0.3,
+   "booker": 0.3,
+   "fetterman": 0.3,
+   "jordan": 0.3,
+   "comer": 0.3,
+   "raskin": 0.3,
+   "swalwell": 0.3,
+   "moskowitz": 0.3,
+   "hegseth": 0.5,
+   "patel": 0.5,
+   "bondi": 0.3,
+   "noem": 0.4,
+   "rfk": 0.4,
+   "powell": 0.3,
+   "bessent": 0.4,
+   "lutnick": 0.3,
+   "gabbard": 0.3,
+   "leavitt": 0.3,
+   "musk": 0.4,
+   "dimon": 0.4,
+   "zuckerberg": 0.4,
+   "vance": 0.5,
+   "zacharia": 0.5,
+   "trump": 0.3,
+   "susie wiles": 0.3,
+   "stephen miller": 0.4,
+   "navarro": 0.3,
+   "homan": 0.4,
+   "rubio": 0.5,
+   "blanche": 0.4,
+   "warsh": 0.4,
+   "duffy": 0.3,
+   "newsom": 0.5,
+   "mamdani": 0.5,
+   "pritzker": 0.4,
+   "desantis": 0.4,
+   "josh shapiro": 0.4,
+   "whitmer": 0.3,
+   "abbott": 0.3,
+   "hochul": 0.3,
+   "ilhan omar": 0.5,
+   "jack smith": 0.4,
+   "el-sayed": 0.4,
+   "ossoff": 0.4,
+   "paxton": 0.4,
+   "talarico": 0.4,
+   "susan collins": 0.4,
+   "peltola": 0.3,
+   "mike rogers": 0.3,
+   "schmitt": 0.3,
+   "kaine": 0.3,
+   "thune": 0.3,
+   "schumer": 0.3,
+   "jeffries": 0.3,
+   "speaker johnson": 0.4,
+   "hannity": 0.4,
+   "tucker carlson": 0.5,
+   "megyn kelly": 0.4,
+   "joe rogan": 0.5,
+   "theo von": 0.5,
+   "piers morgan": 0.4,
+   "bet-david": 0.3,
+   "shawn ryan": 0.3,
+   "candace owens": 0.4,
+   "bill maher": 0.4,
+   "kaitlan collins": 0.5,
+   "kristen holmes": 0.4,
+   "welker": 0.4,
+   "tapper": 0.4,
+   "doocy": 0.4,
+   "manu raju": 0.4,
+   "margaret brennan": 0.3,
+   "zelensky": 0.5,
+   "putin": 0.5,
+   "netanyahu": 0.5,
+   "xi jinping": 0.4,
+   "carney": 0.4,
+   "starmer": 0.3,
+   "macron": 0.3,
+   "bin salman": 0.4,
+   "kim jong un": 0.4,
+   "khamenei": 0.4,
+   "sheinbaum": 0.3,
+   "chief justice": 0.4,
+   "gorsuch": 0.4,
+   "kavanaugh": 0.4,
+   "sotomayor": 0.4,
+   "barrett": 0.3,
+   "sauer": 0.3,
+   "guilfoyle": 0.3
+  },
+  "heat_words": {
+   "yell": 0.8,
+   "yells": 0.8,
+   "yelling": 0.8,
+   "scream": 0.8,
+   "screams": 0.8,
+   "screaming": 0.8,
+   "shout": 0.7,
+   "shouts": 0.7,
+   "shouting": 0.7,
+   "shouting match": 0.9,
+   "erupt": 0.8,
+   "erupts": 0.8,
+   "explodes": 0.7,
+   "explosive": 0.6,
+   "heated": 0.6,
+   "clash": 0.6,
+   "clashes": 0.6,
+   "spar": 0.5,
+   "spars": 0.5,
+   "fiery": 0.6,
+   "tense": 0.5,
+   "confront": 0.5,
+   "confronts": 0.5,
+   "grills": 0.6,
+   "grilled": 0.6,
+   "slams": 0.4,
+   "rips": 0.4,
+   "torches": 0.5,
+   "destroys": 0.4,
+   "melts down": 0.7,
+   "meltdown": 0.7,
+   "chaos": 0.6,
+   "gavel": 0.5,
+   "removed": 0.6,
+   "out of order": 0.7,
+   "interrupts": 0.5,
+   "shut up": 0.8,
+   "fight": 0.5,
+   "brawl": 0.8,
+   "lashes out": 0.6,
+   "fireworks": 0.5,
+   "goes off": 0.6,
+   "unhinged": 0.6,
+   "furious": 0.6,
+   "angry": 0.5,
+   "rage": 0.6,
+   "demands": 0.4,
+   "refuses": 0.5,
+   "won't answer": 0.7,
+   "will not answer": 0.7,
+   "dodges": 0.5,
+   "stonewall": 0.5,
+   "cut off": 0.5,
+   "reclaiming my time": 0.7,
+   "walks out": 0.6,
+   "storms out": 0.7,
+   "protester": 0.5,
+   "dragged out": 0.7,
+   "stunned": 0.4,
+   "silence": 0.3,
+   "silenced": 0.4,
+   "can't answer": 0.6,
+   "doesn't know": 0.4,
+   "caught": 0.4,
+   "lied": 0.5,
+   "lying": 0.5,
+   "liar": 0.6,
+   "showdown": 0.6,
+   "face-off": 0.5,
+   "face off": 0.5,
+   "battle": 0.4,
+   "spat": 0.5,
+   "testy": 0.5,
+   "combative": 0.6,
+   "fake news": 0.6,
+   "snaps at reporter": 0.9,
+   "lashes out at reporter": 0.8,
+   "insults reporter": 0.8,
+   "be quiet": 0.8,
+   "stupid question": 0.8,
+   "nasty question": 0.7,
+   "spars with reporter": 0.7,
+   "abruptly ends": 0.8,
+   "cuts briefing short": 0.8,
+   "walks off": 0.7,
+   "grilled by reporters": 0.7,
+   "dodges question": 0.6,
+   "refuses to say": 0.6,
+   "won't say": 0.6,
+   "oval office clash": 0.9,
+   "hot mic": 0.8,
+   "caught on hot mic": 0.9,
+   "blowup": 0.8,
+   "walks away": 0.7,
+   "ignores question": 0.7,
+   "ignores reporter": 0.7,
+   "no comment": 0.5,
+   "pressed by reporter": 0.6,
+   "chased": 0.6,
+   "confronted": 0.7,
+   "ambush": 0.7,
+   "ambushed": 0.7,
+   "heckled": 0.7,
+   "caught on camera": 0.6,
+   "town hall erupts": 0.9,
+   "booed": 0.8,
+   "jeered": 0.8,
+   "shouted down": 0.9,
+   "vote him out": 0.8,
+   "vote her out": 0.8,
+   "angry crowd": 0.8,
+   "angry constituents": 0.8,
+   "escorted out": 0.7,
+   "pressed on": 0.6,
+   "admits": 0.6,
+   "gets heated": 0.7,
+   "refuses to answer": 0.7,
+   "ends interview": 0.9,
+   "cuts interview short": 0.9,
+   "walks off set": 0.9,
+   "fact-checks": 0.6,
+   "floor fight": 0.8,
+   "objection": 0.6,
+   "censure": 0.7,
+   "words taken down": 0.9,
+   "interrupted": 0.7,
+   "heckler": 0.7,
+   "thrown out": 0.7,
+   "ejected": 0.7,
+   "fiery debate": 0.8,
+   "debate clash": 0.8,
+   "zinger": 0.6,
+   "leaked audio": 0.9,
+   "leaked call": 0.9,
+   "leaked recording": 0.9,
+   "set the record straight": 0.6,
+   "fires back": 0.5,
+   "bodycam": 0.8,
+   "handcuffed": 0.8,
+   "tackled": 0.9,
+   "pepper spray": 0.8,
+   "scuffle": 0.8,
+   "shoved": 0.7,
+   "interrupted by protesters": 0.8,
+   "accuses": 0.4,
+   "dodged": 0.5,
+   "snaps": 0.6,
+   "won't respond": 0.6,
+   "yes or no": 0.7,
+   "can't say": 0.6,
+   "would not say": 0.6,
+   "will not say": 0.6,
+   "no answer": 0.5,
+   "asked three times": 0.7,
+   "savages": 0.5
+  },
+  "_topic_note": "2026-10-17, every format: the hearing words plus gaggles, briefings, sprays, hallways, the street, town halls, podcasts, interviews, debates, the floor, rallies, Supreme Court audio and incidents (viral-clip-engine references/formats.md). A bare 'rally' is left out: Fox Business posts 'stocks rally' daily.",
+  "_rights_note": "2026-10-17: white-house and federal are public-domain publishers (cut, --rights owned); podcast and independent are someone else's recording, cut on the owner's 'clip anything' call like a network copy (credited, --rights rebroadcast). A clips channel's reupload is still 'find original'.",
+  "_formats_note": "2026-10-17: the scout covers every format the Politics now cuts. YouTube channel feeds (feeds/videos.xml?channel_id=) carry Shorts and streams with no yt-dlp call, so most of the new sources are RSS; only six channels and four searches were added to the yt-dlp list. Source list: the politics-scout research, 2026-10-17 (scratch report kept with the session).",
+  "format_words": {
+   "press briefing": 0.5,
+   "gaggle": 0.5,
+   "aboard air force one": 0.6,
+   "air force one": 0.4,
+   "marine one": 0.4,
+   "south lawn": 0.4,
+   "chopper talk": 0.5,
+   "hallway": 0.6,
+   "town hall": 0.6,
+   "floor speech": 0.6,
+   "cabinet meeting": 0.6,
+   "phone call": 0.5,
+   "oral argument": 0.6,
+   "at the airport": 0.6,
+   "posts video": 0.6,
+   "in a video posted": 0.6,
+   "rope line": 0.6
+  },
+  "rank": {
+   "derivative": "\\b(recaps?|reacts?|reaction|compilation|body language|analyst|analysis|explained|explainer|breaks? down|breakdown|roundup|look back|behind the scenes|says about|what it means|comparing|takeaways|full (episode|show)|whole hog|the takeout|enten|john king|stanage|soave|nicolle|capehart|continetti|politics monday|amy walter|tamara keith)\\b|\\|\\s*rising\\b",
+   "derivative_x": 0.35,
+   "primary": "\\b(tells|asks|asked|to reporters?|remarks|press conference|presser|exchange|questions|grills|presses|pressed|confronts?|testif\\w+|hearing|speech|rally|heckl\\w+|debates?|interview|says|refuses|won't|will not)\\b",
+   "primary_x": 1.2,
+   "primary_official_x": 1.4,
+   "quote_x": 1.2,
+   "reupload_x": 0.4,
+   "reupload_viral_x": 0.7,
+   "reupload_viral_vph": 1000,
+   "farm_title": "^\\W*[A-Z][\\w.'\\- ]{2,30} vs\\.? [A-Z][\\w.'\\- ]{2,30}[:!—-]",
+   "farm_x": 0.4,
+   "duration_fit": [
+    [
+     75,
+     0.5
+    ],
+    [
+     120,
+     0.8
+    ],
+    [
+     1200,
+     1.0
+    ],
+    [
+     3600,
+     0.85
+    ]
+   ],
+   "duration_long": 0.7,
+   "duration_long_raw": 1.0,
+   "caps_heat": 0.05,
+   "bang_heat": 0.05,
+   "outlets_credible_only": true
+  },
+  "damp": {
+   "off_topic": {
+    "match": "\\b(france|french|paris|korea\\w*|philippines?|philippine senate|house of commons|pmqs|parliament|canad\\w*|mexic\\w*|india\\w*|pakistan\\w*|bangladesh\\w*)\\b",
+    "unless": "\\b(trump|vance|rubio|hegseth|bessent|senat(e|or)s?|congress\\w*|white house|u\\.s\\.|american)\\b",
+    "factor": 0.25
+   }
+  },
+  "block_channels": [
+   "washington lens",
+   "the hill dispatch",
+   "the hearing wire",
+   "exposed politics",
+   "quorum watch",
+   "politics surge",
+   "politics clash",
+   "politics clips",
+   "politics breakdown",
+   "politicssinsight22",
+   "power and politics",
+   "the politics files",
+   "the civic script",
+   "liberty trigger",
+   "america first brief",
+   "the senate report",
+   "potomac briefworks",
+   "diplomatic news",
+   "livenews justice",
+   "receipts news",
+   "barnaby croft",
+   "julia ashford",
+   "grace kensington",
+   "isla kensington",
+   "elliott carver",
+   "elliott reed",
+   "cedric callahan",
+   "rupert giles",
+   "damian silva",
+   "roy knox",
+   "luke sharp",
+   "alan mercer",
+   "max steel",
+   "antony wright",
+   "ryan mitchell",
+   "muhammad tahir",
+   "jason cross",
+   "maximillian rhodes",
+   "nathaniel hawthorne",
+   "simple wonder",
+   "the right take",
+   "the behavioral arts",
+   "dr. g explains",
+   "the young turks",
+   "hs studio",
+   "ndtv world",
+   "times now",
+   "times now world",
+   "mirror now",
+   "times of india",
+   "hindustan times",
+   "mint",
+   "alert news",
+   "the financial express",
+   "old goat"
+  ],
+  "_tuning_note": "2026-10-17 scout intelligence run (playbook: hermes/politics/skills/politics-scout/playbook.md). The one rule: clip the moment, never people talking about it. Every Politics post that did well was raw footage (Fiato 10,737, CFPB/Toyota 7,680, Dimon/Warren 4,910, C-SPAN 'I'd reconsider' 1,766 in a day). So: `rank` lifts C-SPAN and official feeds, exchanges and quotes, turns commentary, reuploads and 'X vs Y:' farm titles down, and fits length to a 65-90 s cut; `format_words` (gaggle, town hall...) say what kind of video it is and are no longer heat; block_channels never reach the board; half-life 18 h; YouTube channel feeds rank as videos (Shorts and views, no yt-dlp call); dated searches follow the calendar (debates until Nov 3, speeches Nov 3-6, hearings from Nov 9)."
+ }
+}

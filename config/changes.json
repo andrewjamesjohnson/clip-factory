@@ -1,0 +1,246 @@
+[
+ {
+  "id": "cold-open-a",
+  "what": "Cold open A: the clip's own punch line first (1.3 to 4 s), then the clip",
+  "account": "politics",
+  "outlets": [],
+  "live": "2026-10-26 21:00",
+  "metric": "views",
+  "window_days": 7,
+  "commit": "factory b4ff20b; engine cold_open_live true",
+  "undo": "engine: cold_open_live false",
+  "by": "loops thesis seed 10.30 (from memory notes)"
+ },
+ {
+  "id": "politics-15-only",
+  "what": "Politics makes 15 a day only (spares 16 to 20 off)",
+  "account": "politics",
+  "outlets": [],
+  "live": "2026-10-27",
+  "metric": "views",
+  "window_days": 7,
+  "commit": "645ff8b",
+  "by": "loops thesis seed 10.30 (from memory notes)"
+ },
+ {
+  "id": "premium-big-frame",
+  "what": "Big frame + VS card + D RING announcer + bell on FIGHT",
+  "account": "politics",
+  "outlets": [],
+  "live": "2026-10-28",
+  "metric": "views",
+  "window_days": 7,
+  "commit": "448e247",
+  "by": "loops thesis seed 10.30 (from memory notes)"
+ },
+ {
+  "id": "hook-fixes-1028",
+  "what": "Hook fixes 1, 3 and 4",
+  "account": "politics",
+  "outlets": [],
+  "live": "2026-10-28 21:19",
+  "metric": "views",
+  "window_days": 7,
+  "commit": "30320e5",
+  "undo": "engine tag restore-20261028-2040",
+  "by": "loops thesis seed 10.30 (from memory notes)"
+ },
+ {
+  "id": "politics-covers-on",
+  "what": "Covers on for the Politics",
+  "account": "politics",
+  "outlets": [],
+  "live": "2026-10-28 21:19",
+  "metric": "views",
+  "window_days": 7,
+  "commit": "764ed57",
+  "by": "loops thesis seed 10.30 (from memory notes)"
+ },
+ {
+  "id": "outburst-opens-on-shout",
+  "what": "OUTBURST opens on its shout",
+  "account": "politics",
+  "outlets": [],
+  "live": "2026-10-29 09:00",
+  "metric": "views",
+  "window_days": 7,
+  "commit": "engine 5a8e4a3",
+  "undo": "Desktop/CLIP FACTORY/Hook Fixes 10.29/Kit",
+  "by": "loops thesis seed 10.30 (from memory notes)"
+ },
+ {
+  "id": "politics-word-rise",
+  "what": "Politics captions rise word by word (WORD RISE)",
+  "account": "politics",
+  "outlets": [],
+  "live": "2026-10-29 21:00",
+  "metric": "views",
+  "window_days": 7,
+  "commit": "engine e23554d",
+  "undo": "Factory/Projects/Caption Motion 10.29/Kit",
+  "by": "loops thesis seed 10.30 (from memory notes)"
+ },
+ {
+  "id": "daily8-steps-3-5",
+  "what": "Daily 8 steps 3 to 5 (openers and lanes, builder D)",
+  "account": "politics",
+  "outlets": [],
+  "live": "2026-10-30 08:15",
+  "metric": "views",
+  "window_days": 7,
+  "commit": "engine 6c70f1a",
+  "by": "loops thesis seed 10.30 (from memory notes)"
+ },
+ {
+  "id": "gta-fb-cap-6",
+  "what": "Gaming Facebook: 6 posts a day at most",
+  "account": "gaming",
+  "outlets": [
+   "facebook_reels"
+  ],
+  "live": "2026-10-29 11:03",
+  "metric": "views",
+  "window_days": 7,
+  "commit": "9907c95",
+  "by": "loops thesis seed 10.30 (from memory notes)"
+ },
+ {
+  "id": "gta-caption-reveal",
+  "what": "Gaming captions REVEAL word by word",
+  "account": "gaming",
+  "outlets": [],
+  "live": "2026-10-29 16:45",
+  "metric": "views",
+  "window_days": 7,
+  "commit": "gaming f27beca",
+  "undo": "Factory/Projects/Caption Motion 10.29/Kit",
+  "by": "loops thesis seed 10.30 (from memory notes)"
+ },
+ {
+  "id": "gta-designed-covers",
+  "what": "Designed covers (BIG TITLE) on Gaming",
+  "account": "gaming",
+  "outlets": [],
+  "live": "2026-10-30 10:49",
+  "metric": "views",
+  "window_days": 7,
+  "commit": "coverart 44fd76a 494d10c b902260",
+  "by": "loops thesis seed 10.30 (from memory notes)"
+ },
+ {
+  "id": "fb-cap-test",
+  "what": "Facebook cap test: every clip on 10-28, 10-30 and 11-01, cap 6 the other days",
+  "account": "politics",
+  "outlets": [
+   "facebook_reels"
+  ],
+  "live": "2026-10-26 21:09",
+  "metric": "manual",
+  "window_days": 7,
+  "commit": "e03de42",
+  "judge": "fb_cap_test.py, result Fri 11-06",
+  "by": "loops thesis seed 10.30 (from memory notes)"
+ },
+ {
+  "id": "coach-gate-shadow",
+  "what": "The coach's PASS, FIX or KILL written down on every clip that signs itself; holds nothing",
+  "account": "politics",
+  "outlets": [],
+  "live": "2026-10-30 19:31",
+  "metric": "manual",
+  "window_days": 7,
+  "commit": "0de9d18",
+  "undo": "config auto_sign coach_gate off",
+  "judge": "read state/<slug>/coach/gate-shadow.jsonl against the morning results",
+  "by": "loops thesis 10.30"
+ },
+ {
+  "id": "garage-intros-load-1031",
+  "what": "Garage: every clip opens on an intro (spares too), failed slots get a second try, bad footage pulls re-picked, QA skips an intro's own film bars",
+  "account": "cars",
+  "outlets": [],
+  "live": "2026-10-31 10:10",
+  "metric": "manual",
+  "window_days": 7,
+  "undo": "git checkout -- garage/yt.py garage/run.py garage/engine/qa.py clipfactory/garage.py tests/test_garage.py (uncommitted)",
+  "judge": "Andrew: all 6 Garage slots made a night, each on an intro",
+  "by": "Garage intros fix chat 10-31"
+ },
+ {
+  "id": "garage-songs-faces-1031",
+  "what": "Garage: each intro song set to -14 LUFS (6 of 21 were refused every time), footage with a person's face dropped, two-car videos ranked down",
+  "account": "cars",
+  "outlets": [],
+  "live": "2026-10-31 11:20",
+  "metric": "manual",
+  "window_days": 7,
+  "undo": "git checkout -- garage/run.py garage/shots.py (uncommitted)",
+  "judge": "Andrew: no webcam or wrong car in a Garage edit; no loudness refusals",
+  "by": "Garage intros fix chat 10-31"
+ },
+ {
+  "id": "gta-best-only-1031",
+  "what": "Gaming best clips only: no 19:15 REACTIONS hold, no news quota or news-first, one clip a video (his Lock it)",
+  "account": "gaming",
+  "outlets": [],
+  "live": "2026-10-31 11:10",
+  "metric": "views",
+  "window_days": 7,
+  "undo": "accounts.json gaming: reactions_slots [\"19:15\"], clips_per_source 3, delete gta_maker best_news_kinds + best_news_min (backup state/config-backups/accounts.json.before-gta-best-only-2026-10-31-1109",
+  "by": "Andrew"
+ },
+ {
+  "id": "politics-title-band-1031",
+  "what": "Big frame: a tall mid window gives its top rows to the title band (no walk-up); the title never starts above the masthead (y352)",
+  "account": "politics",
+  "outlets": [],
+  "live": "2026-10-31 12:30",
+  "metric": "manual",
+  "window_days": 7,
+  "undo": "engine uncommitted: git -C ~/.claude/skills/viral-clip-engine checkout scripts/clipkit.py scripts/politicslook.py tests/test_bigframe.py SKILL.md",
+  "judge": "Andrew: no title over the masthead on any Politics clip",
+  "by": "claude"
+ },
+ {
+  "id": "gaming-cutaway-weld-1031",
+  "what": "CUTAWAY weld: a face/menu stretch near an edge is trimmed onto a sentence boundary, a middle one welded where the render takes it; cam blacked 25% wider",
+  "account": "stunts",
+  "outlets": [],
+  "live": "2026-10-31 14:40",
+  "metric": "manual",
+  "window_days": 7,
+  "commit": "gaming 6fcc195 69452b2 86ee4f1",
+  "undo": "git revert 86ee4f1 69452b2 6fcc195 in ~/.claude/skills/gaming",
+  "judge": "Andrew: Stunts makes its 6; no CUTAWAY refusal a weld could have saved",
+  "by": "Claude (night check chat 10.31)"
+ },
+ {
+  "id": "gaming-intake-x-1031",
+  "what": "Stunts intake guess 4x -> 1.5x the video (2x for the 03:45 retry): 17 jobs measured 0.38-1.16x; 10-31 lost 4 slots to it",
+  "account": "stunts",
+  "outlets": [],
+  "live": "2026-10-31 14:20",
+  "metric": "manual",
+  "window_days": 7,
+  "commit": "factory (this commit)",
+  "undo": "take intake_x, deadline_x, _intake_x_note out of stunts gta_maker (accounts.json)",
+  "judge": "Andrew: no Stunts slot fails 'would end after 05:30' on a short upload",
+  "by": "Claude (night check chat 10.31)"
+ },
+ {
+  "id": "politics-cut-plates-filler-1031",
+  "what": "Politics cuts: no refusal for a plate the clip itself went out without (Dunleavy, El-Sayed); the picker starts after a leading well/um/uh (Wallace)",
+  "account": "politics",
+  "outlets": [
+   "instagram_reels",
+   "youtube_shorts"
+  ],
+  "live": "2026-10-31 14:50",
+  "metric": "manual",
+  "window_days": 7,
+  "commit": "engine c6c828b + factory (this commit)",
+  "undo": "git revert c6c828b (engine); revert _main_plates in clipfactory/igcut.py",
+  "judge": "Andrew: every Politics clip gets its Instagram + YouTube cut; no 'dropped the plate' or 'opens on well' miss",
+  "by": "Claude (night check chat 10.31)"
+ }
+]

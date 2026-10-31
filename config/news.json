@@ -1,0 +1,18 @@
+{
+ "_how": "The news desk's sources per account (prompts/news-desk.md reads this). feeds: RSS the desk reads for the day's stories, besides the scout's own board (its Top stories and Headlines). lanes: what the account's news posts cover. times: when the desk task runs (Mountain). The five a day at the most is the card post cap (switches HARD card_post, 90 minutes apart), not set here.",
+ "politics": {
+  "lanes": ["Washington: Congress, the White House, the courts, agencies, charges",
+            "Markets and big tech: Nvidia, the AI companies, the Fed, the biggest market moves",
+            "Cyber: big breaches and government warnings"],
+  "times": ["08:10", "10:10", "12:10", "15:10", "17:10"],
+  "feeds": [
+   {"name": "CNBC Top News", "url": "https://www.cnbc.com/id/100003114/device/rss/rss.html"},
+   {"name": "CNBC Technology", "url": "https://www.cnbc.com/id/19854910/device/rss/rss.html"},
+   {"name": "The Record (cyber)", "url": "https://therecord.media/feed"},
+   {"name": "BleepingComputer", "url": "https://www.bleepingcomputer.com/feed/"},
+   {"name": "Justice Department press releases", "url": "https://www.justice.gov/news/rss?type=press_release&m=1"},
+   {"name": "Nvidia newsroom", "url": "https://nvidianews.nvidia.com/releases.xml"},
+   {"name": "Federal Reserve press releases", "url": "https://www.federalreserve.gov/feeds/press_all.xml"}
+  ]
+ }
+}

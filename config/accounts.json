@@ -1,0 +1,802 @@
+{
+  "_how": "One block per account (bot). Slots are local clock times on `timezone`. Paths may start with ~. Edit, then run `factory.py doctor`.",
+  "timezone": "America/Denver",
+  "drafts_root": "~/Desktop/Clip Drafts",
+  "inbox_root": "~/Desktop/Clip Drop",
+  "report_desk": "~/Desktop/CLIP FACTORY/Daily Reviews",
+  "review_port": 8781,
+  "approvers": [
+    "Andrew"
+  ],
+  "accounts": {
+    "gaming": {
+      "name": "Gaming",
+      "handle": "@gaming",
+      "short": "GTA",
+      "links": {
+        "youtube_shorts": "https://www.youtube.com/@gaming",
+        "tiktok": "https://www.tiktok.com/@gamingp",
+        "instagram_reels": "https://www.instagram.com/gaming/",
+        "facebook_reels": "https://www.facebook.com/1000000000000001"
+      },
+      "signed_by_hand_stays": true,
+      "_signed_by_hand_note": "On since 2026-10-17 night (audit STA-4): a slot signed while a platform was posted by hand stays by hand on it after that platform switches to api.",
+      "maker": "gta",
+      "skill_dir": "~/.claude/skills/gaming",
+      "account_dir": "~/Desktop/Andrew Johnson/Gaming",
+      "delivered": [
+        "~/Desktop/Gaming Run {MM}.{DD}.{YYYY}",
+        "~/Desktop/Gaming Clipping {MM}.{DD}.{YYYY}"
+      ],
+      "slots": [
+        "07:00",
+        "08:45",
+        "10:30",
+        "12:15",
+        "14:00",
+        "15:45",
+        "17:30",
+        "19:15",
+        "21:00",
+        "23:00"
+      ],
+      "daily_target": 8,
+      "volume": [
+        {
+          "from": "2026-10-30",
+          "until": "2026-11-18",
+          "slots": [
+            "07:00",
+            "10:30",
+            "14:00",
+            "17:30",
+            "19:15",
+            "21:00"
+          ],
+          "why": "6 a day before GTA 6, posted from the morning through the day"
+        },
+        {
+          "from": "2026-11-19",
+          "slots": [
+            "07:00",
+            "08:45",
+            "10:30",
+            "12:15",
+            "14:00",
+            "17:30",
+            "19:15",
+            "21:00"
+          ],
+          "why": "8 a day from the GTA 6 launch"
+        }
+      ],
+      "_volume_note": "2026-10-29 (Andrew: \"It's 6 to 8 for every account\"; \"Every clip, every account will post starting at like 6:30 in the morning... depending on how many clips... 6 to 8, we'll post them out\"): 6 a day spread 07:00 to 21:00 until the launch (from the 10-30 board, resynced), 8 from 2026-11-19. daily_target 8 = the most a day ever has; youtube daily_budget 10 keeps the channel's 24-hour room as it was. 19:15 stays a slot for the REACTIONS task.",
+      "seconds": {
+        "min": 30,
+        "max": 60
+      },
+      "formats": [
+        "best"
+      ],
+      "slot_formats": [
+        "best",
+        "underlay",
+        "pip",
+        "gameplay"
+      ],
+      "_best_note": "2026-10-29 (Andrew: \"Gaming is just like everything GTA... they're just the best clips that we can find. The biggest news, the biggest events, the biggest streamers, everything\"; then \"Lock it\"): BEST OF GTA. Every slot is \"best\": the night deals the day's biggest finds in the inbox's order (makers.plan_best: at most 2 clips a streamer a day, a news clip first on a news day) and the source decides the layout (makers.best_template: a streamer playing = the GAMEPLAY lane, a face reacting = pip, news or talk = underlay). The scout feeds Twitch and Kick clips of the named streamers (config/scout.json gaming streams). underlay, pip and gameplay stay in slot_formats for a slot set by hand.",
+      "_formats_note": "formats is the rotation a new board deals out, so it is what the 21:00 nightly cuts (the owner's call). slot_formats is every format a slot may be set to by hand: factory.py plan gaming --date D --slots 13:00 --format gameplay. gameplay is the skill's GAMEPLAY lane: a roster creator PLAYING (watchlist kinds streamer, physics, gameplay), and run.py picks gameplay, gameplay-pip or gameplay-clean off the measured facecam.",
+      "clips_per_source": 1,
+      "_clips_per_source_note": "1 since 2026-10-31 11:10 (Andrew: Gaming is \"literally just the best clips of the day\"; a format such as REACTIONS is a tool picked when a big event happens, never a held slot or a quota; his \"Lock it\"): one clip per video, one moment = one clip (was 3; on 10-31 two slots came from one Broughy FiveM race). Undo: 3.",
+      "platforms": [
+        "youtube_shorts",
+        "tiktok",
+        "facebook_reels",
+        "instagram_reels"
+      ],
+      "outlets": {
+        "youtube_shorts": {
+          "mode": "api",
+          "daily_budget": 10,
+          "upload_ahead_hours": 2,
+          "upload_gap_minutes": 3,
+          "tags_from_hashtags": true
+        },
+        "tiktok": {
+          "mode": "export",
+          "api_app_audited": false
+        },
+        "facebook_reels": {
+          "mode": "api",
+          "daily_cap": 6,
+          "_daily_cap_note": "2026-10-29 (Andrew: \"Yes, cap at 6\"): like the Politics since 10-26. GTA Facebook posts after the 6th of a day got 0-2 views (10-27: posts 1-5 157-305 views, 6-9 0-1; 10-28: 7-10 0-2). Only the first 6 of a day post here; every clip still goes to Instagram and YouTube."
+        },
+        "instagram_reels": {
+          "mode": "api"
+        }
+      },
+      "gta_maker": {
+        "spread": true,
+        "best_news_kinds": [],
+        "best_news_min": 0,
+        "_best_news_note": "OFF since 2026-10-31 11:10 (Andrew: Gaming is \"literally just the best clips of the day\"; a format such as REACTIONS is a tool picked when a big event happens, never a held slot or a quota; his \"Lock it\"): news is not forced in and not moved to the first slot; it wins a slot on its size like everything else, and the biggest clip posts first. Undo: delete best_news_kinds and best_news_min here (the defaults are news + breakdown, at least 1, first slot).",
+        "duo_skips_singles": true,
+        "skip_channels": ["onespot", "creator x"],
+        "_skip_channels_note": "creator x since 2026-10-29: Creator X filed a YouTube takedown on Gaming and asked for every clip of his down; never cut him without his written yes. The scout's search feed has no channel blocklist, so a new upload of his could still reach the inbox: this keeps the maker from cutting it (scout.feed_gta writes his search finds as channel creator x too).",
+        "rescan_until": "01:00",
+        "_rescan_note": "2026-10-26 (LESSONS row 5): the GTA second half (task gaming-morning-sweep) runs at 01:00 now, Andrew moved it; the worker stops rescanning then so the hand picks start at once instead of 03:41"
+      },
+      "reactions_slots": [],
+      "reactions_until": "2026-11-30",
+      "bench": {
+        "fill": true,
+        "target": 6,
+        "low": 4,
+        "max": 8,
+        "evergreen_days": 30,
+        "until_cap": "2026-11-18",
+        "lead_minutes": 90,
+        "launch": "2026-11-19"
+      },
+      "_bench_note": "The spare-clip bench (build3/bench, clipfactory/bench.py). Finished clips that passed every check wait in state/gaming/bench/ for a slot the night and the gap-fills leave empty; at 06:18 (launchd com.clipfactory.bench-fill, after the night shift) each such slot 90+ minutes away takes the one that expires first, as an unsigned draft (factory.py place). The 10:00 Claude task bench-builder keeps low to target ready (4 to 6), GTA 6 explainers only, never GTA 5 stunts. A GTA 6 spare is good for evergreen_days at most and never past until_cap (the day before the launch: every GTA 6 clip's words change then). fill false: nothing is placed. It ships false: switch it to true once Andrew has seen `factory.py bench fill all --date tomorrow --dry-run` (his call).",
+      "_reactions_note": "OFF since 2026-10-31 11:10 (Andrew: Gaming is \"literally just the best clips of the day\"; a format such as REACTIONS is a tool picked when a big event happens, never a held slot or a quota; his \"Lock it\"): reactions_slots emptied, so the night fills every slot with the top 6 and the 13:00 task gta-reactions-daily-auto stops at its step 0. Undo: reactions_slots [\"19:15\"]. Before: 2026-10-17 (Andrew, audit call 3: a REACTIONS slot a day while the GTA 6 wave runs; call 4: keep the REACTIONS, skip their single clips that day). The 13:00 Claude task gta-reactions-daily cuts ONE REACTIONS duo for tomorrow with the skill and places it in this slot as a draft (factory.py place). The 21:00 nightly leaves the slot for it until 03:30 on the day; still empty then, a later pass of the night shift (or the GTA second half) fills it with a normal clip, so the day still has ten (factory.py place --release lets the nightly fill it at once). Two slots at most; never two REACTIONS clips on one day unless two are listed. reactions_until is the last day with the slot. duo_skips_singles: the duo's reactors are not cut as single clips that day, and a placed clip's source links keep the nightly off those videos.",
+      "_gta_maker_note": "spread on 2026-10-17 (Andrew: 'swap it in'): the night deals its sources round-robin over the day, a source under 6 minutes gives at most 2 clips, and no pick shares more than 15% of its seconds with another cut."
+    },
+    "politics": {
+      "name": "Politics",
+      "handle": "@capitalpoliticshq",
+      "short": "Politics",
+      "links": {
+        "youtube_shorts": "https://www.youtube.com/@politics",
+        "tiktok": "https://www.tiktok.com/@politics",
+        "instagram_reels": "https://www.instagram.com/capitalpoliticshq/",
+        "facebook_reels": "https://www.facebook.com/1000000000000002"
+      },
+      "signed_by_hand_stays": true,
+      "_signed_by_hand_note": "On since 2026-10-17 night (audit STA-4): a slot signed while a platform was posted by hand stays by hand on it after that platform switches to api.",
+      "maker": "politics",
+      "skill_dir": "~/.claude/skills/viral-clip-engine",
+      "account_dir": "~/Desktop/Andrew Johnson/Clipping",
+      "delivered": [
+        "~/Desktop/Andrew Johnson Clipping {MM}.{DD}.{YYYY}"
+      ],
+      "slots": [
+        "06:30",
+        "07:50",
+        "09:50",
+        "11:50",
+        "13:35",
+        "15:55",
+        "18:20",
+        "20:40"
+      ],
+      "daily_target": 8,
+      "spare_slots": [],
+      "_spare_note": "2026-10-27 OFF (Andrew: \"Only want to make 15 ... then we're going to figure out the reasons why they don't post\"): no spare slots on a new board; the bench still fills an empty base slot. Was 08:20 11:50 16:45 20:15 22:30 (backup state/config-backups/accounts.json.before-politics-15-only-2026-10-27-0822). Before: 2026-10-21 (Politics New Looks 10.21, Andrew: The spare post times are OK): slots 16 to 20. Every new board carries them marked spare; they fill only once all fifteen base slots hold a clip, and only with a clip that passed every check (the day rule counts them like any clip). An empty spare slot is never missing. slots and daily_target stay fifteen. Each is 20+ minutes from every account's minute (doctor checks it).",
+      "bench": {
+        "fill": true,
+        "target": 6,
+        "low": 4,
+        "max": 8,
+        "evergreen_days": 90,
+        "lead_minutes": 90
+      },
+      "_bench_note": "The spare-clip bench (build3/bench, clipfactory/bench.py). Finished clips that passed every check (a cast verified by a person, never provisional; their Instagram cut, and the YouTube cut a network clip needs) wait in state/politics/bench/ for a slot the night shift leaves empty; at 06:18 each such slot 90+ minutes away takes the one that expires first, if the day rule (rotation.py, over the boards and Publish/schedule.json) still allows it, as an unsigned draft. The 10:00 Claude task bench-builder keeps 4 to 6 ready from archive refusals. The nightly's own day rule reads Publish/schedule.json only, so it cannot see a spare on a board. fill false: nothing is placed. It ships false: switch it to true once Andrew has seen `factory.py bench fill all --date tomorrow --dry-run` (his call).",
+      "_daily_target_note": "THE DAILY 8 since 2026-10-28 (Andrew, on the Daily 8 plan: \"Lock it. Start step 1: 8 a day, the slots in the night prompt\"; posting more than 8 a day gave diminishing returns). Eight slots, each a lane: 06:30 fight 1, 07:50 fight 2, 09:50 news 1, 11:50 sit-down, 13:35 news 2, 15:55 hearing, 18:20 flashback, 20:40 outburst (the night prompt's THE DAILY 8 bullet; plan: ~/Desktop/CLIP FACTORY/Daily 8 Plan 10.28). Each at least 25 minutes from every other account's minute except the kept 07:50, 13:35, 15:55, 18:20, 20:40. Backup of the fifteen: state/config-backups/accounts.json.before-politics-daily-8-2026-10-28-1043. Before: Fifteen a day since 2026-10-21 (Andrew: \"Politics 15 a day starting 06:30\"; ten from 2026-10-17). Slots about every 70 minutes, 06:30 to 23:10, each at least 10 minutes from every other account's minute. The day rule (rotation.py, preflight.py) is unchanged: never two in a row in one segment, at most three per segment (eight segments), every pair differs on two of seven axes, at most three per source; fifteen needs at least five segments full. Empty slots are a supply gap (cast checks, sources, night render time), said plainly on the board. Ten a day since 2026-10-17 (the owner: 'we're posting 10 times a day'). viral-clip-engine's day rule (rotation.py, preflight.py, Publish/stage.py) now allows it: never two clips in a row in one segment, at most three per segment, every pair differs on two of seven axes (the six plus the source's format), at most three per source. The Politics also cuts every format of political video now (references/formats.md). Empty slots are a supply gap (cast checks, sources), said plainly on the board.",
+      "seconds": {
+        "min": 30,
+        "max": 90
+      },
+      "_seconds_note": "2026-10-26, Andrew: \"they can be under 65 seconds. That's fine if they're good.\" min 30: the engine still holds every clip to 68s unless its slate names payoff_end and it ends within 5s of it (clipkit.clip_floor, preflight PAYOFF); such a complete exchange may run 30s+ and gives up TikTok's 60s+ per-view gate. Before: The owner, 2026-10-16: Politics clips stay at 65s or longer so they clear TikTok Creator Rewards (>= 60s, and silence removal takes 15-20% out). 90 is the ceiling the account's Reference/templates.md sets: Facebook Reels, its best per-view payer, stops at 90s.",
+      "formats": [
+        "room",
+        "politics",
+        "docket",
+        "record",
+        "gaggle",
+        "sitdown",
+        "floor",
+        "tape"
+      ],
+      "_formats_note": "The eight Politics segments (templates): the four hearing ones plus gaggle, sitdown, floor, tape (2026-10-17). Informational for this account: the Claude nightly run picks each clip's segment from its moment.",
+      "clips_per_source": 3,
+      "platforms": [
+        "youtube_shorts",
+        "tiktok",
+        "facebook_reels",
+        "instagram_reels"
+      ],
+      "outlets": {
+        "youtube_shorts": {
+          "mode": "api",
+          "category_id": "25",
+          "upload_ahead_hours": 2,
+          "upload_gap_minutes": 3,
+          "daily_budget": 10,
+          "_daily_budget_note": "2026-10-26 fix day: the channel takes about 10 to 12 uploads a day (its phone IS verified, seen 10-26, so this is YouTube's own cap); one refusal pauses it a whole day. 10 to YouTube, the rest to Facebook and Instagram.",
+          "_category_note": "25 = News & Politics (the engine's own uploader and the hearing preset use it); without it the factory files uploads under 20 (Gaming).",
+          "cut_when": {
+            "rights": [
+              "rebroadcast"
+            ],
+            "over_seconds": 60,
+            "why": "one Content ID claim blocks a Short over 60s worldwide"
+          },
+          "cut_min_seconds": 30,
+          "cut_max_seconds": 59,
+          "_cut_note": "Audit call 5 (2026-10-17, decided as recommended): a YouTube Short over 60s with any copyright claim is blocked worldwide; at 60s or less it stays up and the claimant takes the money. So a network or C-SPAN clip (rights rebroadcast: a network, C-SPAN, podcast or creator copy) over 60s goes to YouTube only as its own 30-59s cut (youtube.mp4 beside the clip: factory.py ytcut in the nightly run, like Instagram's). With no cut it does not post to YouTube and its card says why. Owned clips (committee, member, White House feeds) go whole, and so does a clip with no rights on record (a hand drop has no job, so ytcut cannot cut it: \"unknown\" in cut_when.rights would keep every long drop off YouTube)."
+        },
+        "tiktok": {
+          "mode": "export",
+          "api_app_audited": false
+        },
+        "facebook_reels": {
+          "mode": "api",
+          "daily_cap": 6,
+          "_daily_cap_note": "2026-10-26 (Andrew: Yes, build all 6): Politics Facebook posts 7+ got 13 views at most over 10-19 to 10-25, whatever the hour; posts 1-2 made 94% of its Facebook views. Only the first 6 of a day post here; every clip still goes to Instagram and YouTube.",
+          "daily_cap_by_day": {"2026-10-27": 6, "2026-10-28": 0, "2026-10-29": 6, "2026-10-30": 0, "2026-10-31": 6, "2026-11-01": 0, "2026-11-02": 6},
+          "_daily_cap_by_day_note": "2026-10-26 (Andrew: Yes, run the Facebook test): the Facebook cap test, 10-27 to 11-02. 0 = no cap that day (every clip goes to Facebook), 6 = the usual cap; a day not listed keeps daily_cap. Posts past the 6th on a 0 day carry past_usual_cap and the learner skips them. Result: fb_cap_test.py in side-session-notes/local_7624fc2c-a150-4b23-aeb7-337be869e9f4. Afterwards this list can go: each day is past."
+        },
+        "instagram_reels": {
+          "mode": "api",
+          "min_seconds": 30,
+          "max_seconds": 40,
+          "_note": "40s at most since 2026-10-21 (Andrew: \"cap Instagram cuts at 40 seconds\"): Meta's rupload fails more often on longer cuts (10-20/10-21 ProcessingFailedError). @capitalpoliticshq takes Reels of about 50s at most through the API (2026-10-17, unpublished tests: 30, 33, 40, 45 and 50s accepted; 57, 65 and 76s refused) and every Politics clip is 65-90s, so Instagram gets each clip's own 30-50s cut (instagram.mp4 beside the clip: factory.py igcut in the nightly run). A clip with no cut does not post to Instagram."
+        }
+      }
+    },
+    "stunts": {
+      "name": "Stunts",
+      "handle": "@stunts",
+      "short": "Clips",
+      "active": true,
+      "_day_shift_note": "BACK ON THE NIGHT 2026-10-29 19:35 (Andrew: \"everything clips at night... Cars is at night. So is Stunts and Capital Politics. The only one that's not... is the breaking news for Capital Politics\"): day_shift and night:false taken out, agents stunts-nightly (21:00), stunts-retry (03:45) and stunts-scout installed with timer --only, stunts-day removed; Gaming at 6 a day freed the night's room; the day shift had already made the whole 10-30 board. Before that: 2026-10-29 (Andrew: \"Yes, build it\", on a daytime shift for Stunts): it cuts in the day, when the render queue is free (busy 1.2 to 2.2 of the 14 hours 07:00-21:00 on 10-27 and 10-28), and leaves the night to the Politics and Gaming. The agent stunts-day runs factory.py nightly stunts at 09:30 (the next posting day's board) and the hourly scout at :46; its worker starts no intake or render after 18:45, no new pass or long intake after 18:30, and stops itself at 19:30 (makers.day_shift_clock). The gaming skill must stay clean while it cuts. Back to the night: take out day_shift and night, then factory.py timer install.",
+      "auto_sign": {
+        "on": false
+      },
+      "_on_note": "ON 2026-10-29 (Andrew: \"let's get all the four accounts loaded up into Clipper view... so we can start posting going forward\"): on Clip Review, YouTube, Facebook and Instagram post by the API once a clip is signed; TikTok by hand (no TikTok account yet). \"night\": false: nothing cuts for it by itself, no 21:00 night, 03:45 retry or scout agent, because the Mac's night is full (render queue busy 7.1 to 7.8 of the 9.25 night hours 10-26 to 10-28; Gaming alone 4.8 to 6.2). Its slots take a clip dropped in ~/Desktop/Clip Drop/Stunts, or a make run by hand in the day (factory.py make stunts --date D --background). Take \"night\" out and run factory.py timer install to give it the night. auto_sign off: every clip waits for Andrew's Approve (a new channel's first posts). daily_target 6 (was 10; Andrew 10-29: 6 to 8 a day per GTA channel).",
+      "_note": "2026-10-19 (Andrew: \"Stunts will be gameplay. But for now we're going to use GTA 5... when the game comes out, we'll switch.\"): GAMEPLAY clips of any streamer or creator playing, GTA 5 and GTA Online now, GTA 6 gameplay from its 2026-11-19 launch. The switch is a date, never a code change: the dated phase in config/scout.json (stunts phases, from 2026-11-19), which the night follows too (gta_maker skip_off_topic), the same date as prelaunch_until in its Publish/watchlist.json, and the stunts kit in the skill. GTA 5 footage is always labelled GTA 5 in its titles, captions, hashtags and tags, before and after the launch: never passed off as GTA 6. The skill's GAMEPLAY lane only (run.py picks gameplay, gameplay-pip or gameplay-clean off the measured facecam), fed by watchlist kinds gameplay, streamer and physics, never rp (that is Roleplay's), from its own folder, kit and roster. Its slots sit 20 minutes after Gaming's, so four accounts never post in the same minute. Its YouTube channel (Stunts GTA6), Facebook Page (id 1000000000000003) and Instagram exist since 2026-10-19 (links); its TikTok (@stunts, a personal account) is not made yet. OFF (\"active\": false) until Andrew says switch it on: then set \"active\": true and run `factory.py timer install` (doctor's \"accounts being set up\" lists what is still missing). Every outlet is export (by hand) until it is connected. NEW-ACCOUNTS.md is the runbook.",
+      "links": {
+        "youtube_shorts": "https://www.youtube.com/@Stunts",
+        "instagram_reels": "https://www.instagram.com/stunts/",
+        "facebook_reels": "https://www.facebook.com/1000000000000003"
+      },
+      "signed_by_hand_stays": true,
+      "maker": "gta",
+      "kit": "stunts",
+      "job_tag": "clips",
+      "scout_minute": 46,
+      "skill_dir": "~/.claude/skills/gaming",
+      "account_dir": "~/Desktop/Andrew Johnson/Stunts",
+      "delivered": [],
+      "slots": [
+        "07:20",
+        "09:05",
+        "10:50",
+        "12:35",
+        "14:20",
+        "16:05",
+        "17:50",
+        "19:35",
+        "21:20",
+        "23:20"
+      ],
+      "daily_target": 8,
+      "volume": [
+        {
+          "from": "2026-10-30",
+          "until": "2026-10-30",
+          "slots": [
+            "07:20",
+            "09:05",
+            "10:50",
+            "12:35",
+            "14:20",
+            "16:05"
+          ],
+          "why": "the board the day shift made before the change"
+        },
+        {
+          "from": "2026-10-31",
+          "until": "2026-11-18",
+          "slots": [
+            "07:20",
+            "10:50",
+            "14:20",
+            "17:50",
+            "19:35",
+            "21:20"
+          ],
+          "why": "6 a day before GTA 6, posted from the morning through the day"
+        },
+        {
+          "from": "2026-11-19",
+          "slots": [
+            "07:20",
+            "09:05",
+            "10:50",
+            "12:35",
+            "14:20",
+            "17:50",
+            "19:35",
+            "21:20"
+          ],
+          "why": "8 a day from the GTA 6 launch"
+        }
+      ],
+      "_volume_note": "2026-10-29 (Andrew: \"It's 6 to 8 for every account\"; \"Every clip, every account will post starting at like 6:30 in the morning... depending on how many clips... 6 to 8, we'll post them out\"): 6 a day spread 07:20 to 21:20 until the launch (from the 10-31 board; 10-30 keeps the board the day shift already made), 8 from 2026-11-19. daily_target 8 = the most a day ever has; youtube daily_budget 10 so 8 a day never waits on the rolling 24 hours.",
+      "seconds": {
+        "min": 30,
+        "max": 60
+      },
+      "formats": [
+        "gameplay"
+      ],
+      "slot_formats": [
+        "gameplay"
+      ],
+      "clips_per_source": 1,
+      "_clips_per_source_note": "2026-10-29 (Andrew locked the Stunts board: one video gives one clip a day): was 3, and with spread the 10-30 board took 3 of its 6 clips from one video (30 JETS Vs 1 SUBMARINE CAR). Each slot now takes its own source, the one that fits its moment (slot_moments).",
+      "slot_moments": {
+        "07:20": "stunt",
+        "09:05": "parkour",
+        "10:50": "chase",
+        "12:35": "heist",
+        "14:20": "air_stunt",
+        "17:50": "one_in_a_million",
+        "19:35": "fast_drive",
+        "21:20": "drive_time"
+      },
+      "_slot_moments_note": "2026-10-29 (Andrew: \"Stunts is more like gameplay, right? Like stunts, cars driving fast... parkour\"; \"more stunts than anything... the stunt videos, the chases\"; TOP 3 \"stupid\", FAIL + REPLAY \"just like another stunt\"; then \"Lock it\"): the kind of clip each slot posts (clipformats.py). The volume rules say which slots a day has: 07:20 STUNT, 10:50 CHASE, 14:20 AIR STUNT, 17:50 ONE IN A MILLION, 19:35 FAST DRIVE, 21:20 DRIVE TIME (a 2-week test; cut as FAST DRIVE until its podcast-over-a-drive maker lands) until the launch; 09:05 PARKOUR and 12:35 HEIST GETAWAY join with the 8-a-day rule on 2026-11-19. board.new_board writes the moment on each new slot; the night deals each slot the source that fits it and cuts the candidate that fits it.",
+      "platforms": [
+        "youtube_shorts",
+        "tiktok",
+        "facebook_reels",
+        "instagram_reels"
+      ],
+      "outlets": {
+        "youtube_shorts": {
+          "mode": "api",
+          "daily_budget": 10,
+          "upload_ahead_hours": 2,
+          "upload_gap_minutes": 3,
+          "tags_from_hashtags": true
+        },
+        "tiktok": {
+          "mode": "export",
+          "api_app_audited": false,
+          "scopes": "user.info.basic,video.publish"
+        },
+        "facebook_reels": {
+          "mode": "api",
+          "daily_cap": 6,
+          "_daily_cap_note": "2026-10-30 (Andrew locked the Stunts standard, \"Lock it\"): like the Politics (10-26) and Gaming (10-29): Facebook shows only the first 6 posts of a day (posts 7+ got 0-13 views on both). 6 a day until 11-19 all post; from 11-19 (8 a day) the first 6 post here, and every clip still goes to Instagram and YouTube."
+        },
+        "instagram_reels": {
+          "mode": "api"
+        }
+      },
+      "gta_maker": {
+        "spread": true,
+        "playing_kinds": [
+          "gameplay",
+          "streamer",
+          "physics"
+        ],
+        "skip_off_topic": true,
+        "skip_titles": "\\b(leak|leaks|leaked|leaker|leakers|leaking)\\b|\\bcyber ?leek|^(?=.*\\b(gta ?(6|vi)|grand theft auto ?(6|vi))\\b).*\\b(mods?|modded|modding|in gta ?(5|v)|in grand theft auto ?(5|v)|recreat(e|ed|es|ing|ion)|remake|remade|concept|fan ?made)\\b|\\bcreator ?magnus\\b",
+        "intake_x": 1.5,
+        "deadline_x": 2,
+        "_intake_x_note": "2026-10-31 (Andrew: \"figure out the fixes ... for the next runs going forward\"): the 10-31 night left 4 of Stunts' 6 slots empty with 12-16 min uploads 'not cut now ... would end about 05:37, after 05:30': the night guessed 4x the video's length for an intake (GTA's 10-17 streams). Measured on 17 Stunts jobs 10-30/31 (RUN.md intake + picks over the video's length): 0.38x to 1.16x, median 0.69x, the slow ones beside a GTA intake. 1.5x for night_until and 2x for the 03:45 retry's 05:50 start still leave room over the slowest.",
+        "skip_channels": ["creator x", "gtablade", "progamingstudio", "gtawaffle", "shinylamp", "gtadolls", "gtaragdolian", "pizzaslice", "mikethegoon", "achygaming", "brox", "broxclips", "champssquad", "frostbitegaming", "gtaboomracing", "hindustangamer", "hiteshks", "internationaldjcollection", "liveinsaan", "mikecrack", "mythpat", "nonstopdjgaming", "technogamerz", "themegadude", "winwingtav", "wongames"],
+        "_skip_note": "2026-10-29: Creator X (YouTube takedown on Gaming, every clip of his asked down): his channel and his name in a title are never cut, here as on Gaming, unless Andrew says Creator agreed in writing. 2026-10-30 (Andrew, \"Lock it\" on the 14 proposed creators, 6 yes and 8 no): GTA Blade, ProGamingStudio (Spider-Man mods), GTA Waffle, Shiny Lamp, GTA DOLLS, GTARagdolian (ragdoll fails), PizzaSlice (Squid Game mods) and Mike The Goon are never cut, from the roster or a vault search. 2026-10-30 (the all-time vault): channels whose titles are English but whose talk is Hindi, Spanish or German (Techno Gamerz, Live Insaan, Mythpat, Mikecrack, Brox...) and kids' character-mod channels are kept out too: the skill has no spoken-language check, and their talk would caption as nonsense on an English account."
+      },
+      "_gta_maker_note": "spread as Gaming's; playing_kinds: the inbox kinds a GAMEPLAY slot takes (the watchlist's kinds gameplay, streamer, physics). One source video is cut for one GTA account only: the first to cut it wins. skip_off_topic (2026-10-19, the game switch): the night never cuts an inbox row whose title config/scout.json's stunts damp.off_topic turns down for the posting day, so its one dated phase (from 2026-11-19) switches the night with the scout: before it, a title naming GTA 6 and not GTA 5 (no GTA 6 gameplay exists yet); from it, a GTA 5 / Online title not naming GTA 6. skip_titles: the leak videos (Gaming's default, repeated here because a value here replaces it) and GTA 6 named on GTA 5 footage (a mod, a map, a remake, 'in GTA 5'), the same pattern the scout turns down x0.2.",
+      "vault": {
+        "on": true,
+        "all_time": true,
+        "first": true,
+        "until": "2026-11-18",
+        "per_channel": 15,
+        "listed": 300,
+        "max_age_days": 365,
+        "per_moment": 3,
+        "waiting_max": 18,
+        "per_search": 40,
+        "search_min_minutes": 4,
+        "searches": {
+          "stunt": ["gta 5 stunts", "gta 5 mega ramp", "gta 5 stunt jumps", "gta 5 bike stunts"],
+          "chase": ["gta 5 police chase", "gta 5 5 star wanted level escape", "gta 5 cops chase"],
+          "air_stunt": ["gta 5 plane stunts", "gta 5 helicopter stunts", "gta 5 jet under bridge"],
+          "one_in_a_million": ["gta 5 one in a million", "gta 5 luckiest moments", "gta 5 impossible moments"],
+          "fast_drive": ["gta 5 fast driving through traffic", "gta 5 top speed run", "gta 5 street race"],
+          "parkour": ["gta 5 parkour"],
+          "heist": ["gta 5 heist getaway", "gta 5 bank robbery escape"]
+        },
+        "skip_titles": "\\b(compilations?|funny moments?|thug life|fails?\\s*(&|and)\\s*wins?|wins?\\s*(&|and)\\s*fails?|best moments?|top\\s*\\d+|best of|highlights?|fails?)\\b|spider-?man|super ?powers?|super ?heroe?s?|iron ?man|\\bhulk\\b|thanos|squid game|ragdoll|euphoria|naruto|goku|minecraft|roblox|fortnite|skibidi|shin-?chan|doraemon|nobita|avengers|batman|superman|justice league|oggy|\\bheroes\\b|in real life|\\birl\\b|teardown|\\brp\\b|roleplay|machinima|action film|\\bmovie\\b|how to|guide|walkthrough|locations|mission #|\\bauf\\b|nachmachen"
+      },
+      "_vault_note": "2026-10-30 (Andrew, \"Lock it\": \"we'll just be testing it on... the best things of all time on GTA 5, or the best clips... videos any creator\"): THE VAULT is the main supply until the GTA 6 flip. all_time: a roster creator's best by views over their last 300 uploads, no age limit (max_age_days is not read); searches: YouTube's most viewed of all time for each kind's queries, from ANY creator (the 8 creators he said no to are skip_channels); skip_titles keeps out compilations of other people's clips and character mods (Spider-Man, superpowers, Squid Game, ragdolls); first: a vault row that fits a slot is dealt before a fresh upload, the most viewed first; until 2026-11-18: the vault is all GTA 5, so it stops feeding with the 11-19 board. A row cut once is never cut again (its inbox row turns cut). Rebuild weekly: python3 -m clipfactory.clipformats vault build stunts. Before (2026-10-29): each creator's best of the past year, for slow days only.",
+      "bench": {
+        "fill": true,
+        "target": 6,
+        "low": 4,
+        "max": 8,
+        "evergreen_days": 30,
+        "until_cap": "2026-11-18",
+        "lead_minutes": 90,
+        "launch": "2026-11-19"
+      }
+    },
+    "roleplay": {
+      "name": "Roleplay",
+      "handle": "@roleplay",
+      "short": "RP",
+      "active": false,
+      "_note": "2026-10-19 (Andrew): GTA RP (roleplay) clips: in-character scenes from NoPixel and the other GTA V RP servers. The skill's GAMEPLAY lane, fed ONLY by watchlist kind rp, from its own folder, kit and roster. Its slots sit 40 minutes after Gaming's, so four accounts never post in the same minute. OFF (\"active\": false) until Andrew has made its platform accounts and says switch it on: then set \"active\": true and run `factory.py timer install` (doctor's \"accounts being set up\" lists what is still missing). Every outlet is export (by hand) until it is connected. NEW-ACCOUNTS.md is the runbook.",
+      "links": {},
+      "signed_by_hand_stays": true,
+      "maker": "gta",
+      "kit": "roleplay",
+      "job_tag": "rp",
+      "skill_dir": "~/.claude/skills/gaming",
+      "account_dir": "~/Desktop/Andrew Johnson/Roleplay",
+      "delivered": [],
+      "slots": [
+        "07:40",
+        "09:25",
+        "11:10",
+        "12:55",
+        "14:40",
+        "16:25",
+        "18:10",
+        "19:55",
+        "21:40",
+        "23:40"
+      ],
+      "daily_target": 10,
+      "seconds": {
+        "min": 30,
+        "max": 60
+      },
+      "formats": [
+        "gameplay"
+      ],
+      "slot_formats": [
+        "gameplay"
+      ],
+      "clips_per_source": 3,
+      "platforms": [
+        "youtube_shorts",
+        "tiktok",
+        "facebook_reels",
+        "instagram_reels"
+      ],
+      "outlets": {
+        "youtube_shorts": {
+          "mode": "export",
+          "upload_ahead_hours": 2,
+          "upload_gap_minutes": 3,
+          "tags_from_hashtags": true
+        },
+        "tiktok": {
+          "mode": "export",
+          "api_app_audited": false,
+          "scopes": "user.info.basic,video.publish"
+        },
+        "facebook_reels": {
+          "mode": "export"
+        },
+        "instagram_reels": {
+          "mode": "export"
+        }
+      },
+      "gta_maker": {
+        "spread": true,
+        "playing_kinds": [
+          "rp"
+        ]
+      },
+      "_gta_maker_note": "spread as Gaming's; playing_kinds [rp]: a GAMEPLAY slot takes only a roleplay upload (the watchlist's kind rp). One source video is cut for one GTA account only: the first to cut it wins.",
+      "bench": {
+        "fill": false,
+        "target": 6,
+        "low": 4,
+        "max": 8,
+        "evergreen_days": 30,
+        "until_cap": "2026-11-18",
+        "lead_minutes": 90,
+        "launch": "2026-11-19"
+      }
+    },
+    "lab": {
+      "name": "Lab",
+      "handle": "@lab",
+      "short": "Lab",
+      "active": false,
+      "display_name": "Lab | GTA 6 Secrets",
+      "_note": "2026-10-20 (Andrew: \"Build the secrets and what-happens-if tests channel. I have a console and can record.\"): one question per 30 to 60 second clip (\"What really happens if you ... in GTA 5?\", \"The secret ... in GTA 5\"), answered on Andrew's OWN console recording, with the account's own voice explaining. GTA 5 now, always labelled GTA 5; GTA 6 from 2026-11-19 (lab.game_by_date). The verdict says only what his recording shows: he confirms it on the Lab tab when he records (no command or bot can), the frames are checked before a script is accepted, and the bank's expected answer is a hypothesis shown to him, never a claim on its own. Volume is the dated rule in \"volume\" (3 a day until 2026-11-18, 10 a day from 2026-11-19), never a code change. Its clips never sign themselves (auto_sign off): Andrew watches and approves each one. Its slots are Roleplay's minutes, 40 after Gaming's (Roleplay is parked). OFF (\"active\": false) until Andrew has made its platform accounts and says switch it on: then set \"active\": true and run `factory.py timer install`. Takes can be recorded, marked and scripted before switch-on; nothing is rendered or posted until then. Every outlet is export (by hand) until it is connected. NEW-ACCOUNTS.md is the runbook.",
+      "links": {},
+      "signed_by_hand_stays": true,
+      "maker": "lab",
+      "kit": "lab",
+      "job_tag": "lab",
+      "skill_dir": "~/.claude/skills/gaming",
+      "account_dir": "~/Desktop/Andrew Johnson/Lab",
+      "delivered": [],
+      "drop_folder": false,
+      "_drop_folder_note": "false: no Clip Drop folder is made or read for Lab. A finished clip dropped there would skip the test bank and the truth rule.",
+      "slots": [
+        "07:40",
+        "09:25",
+        "11:10",
+        "12:55",
+        "14:40",
+        "16:25",
+        "18:10",
+        "19:55",
+        "21:40",
+        "23:40"
+      ],
+      "daily_target": 10,
+      "volume": [
+        {
+          "until": "2026-11-18",
+          "slots": [
+            "11:10",
+            "16:25",
+            "19:55"
+          ],
+          "why": "3 a day before GTA 6"
+        },
+        {
+          "from": "2026-11-19",
+          "slots": [
+            "07:40",
+            "09:25",
+            "11:10",
+            "12:55",
+            "14:40",
+            "16:25",
+            "18:10",
+            "19:55",
+            "21:40",
+            "23:40"
+          ],
+          "why": "10 a day from the launch"
+        }
+      ],
+      "seconds": {
+        "min": 30,
+        "max": 60
+      },
+      "formats": [
+        "test"
+      ],
+      "slot_formats": [
+        "test"
+      ],
+      "clips_per_source": 1,
+      "platforms": [
+        "youtube_shorts",
+        "tiktok",
+        "facebook_reels",
+        "instagram_reels"
+      ],
+      "outlets": {
+        "youtube_shorts": {
+          "mode": "export",
+          "upload_ahead_hours": 2,
+          "upload_gap_minutes": 3,
+          "tags_from_hashtags": true
+        },
+        "tiktok": {
+          "mode": "export",
+          "api_app_audited": false,
+          "scopes": "user.info.basic,video.publish"
+        },
+        "facebook_reels": {
+          "mode": "export"
+        },
+        "instagram_reels": {
+          "mode": "export"
+        }
+      },
+      "auto_sign": {
+        "on": false
+      },
+      "_auto_sign_note": "off for Lab (design 2026-10-20): a wrong verdict is the one thing this channel cannot survive, so every Lab clip waits for Andrew's Approve, the second check by a person after his confirmation at record time.",
+      "bench": {
+        "fill": false
+      },
+      "lab": {
+        "bank": "Publish/tests.json",
+        "capture_root": "~/Movies/Lab Capture",
+        "capture_link": "Capture",
+        "obs": "~/.config/clip-factory/lab/obs.json",
+        "capture_hours": {
+          "from": "06:15",
+          "until": "20:45"
+        },
+        "take_warn_minutes": 20,
+        "take_stop_minutes": 30,
+        "free_gb": {
+          "refuse": 60,
+          "warn": 150
+        },
+        "dropped_frames": {
+          "warn": 0.005,
+          "redo": 0.03
+        },
+        "game_by_date": {
+          "before": "GTA 5",
+          "from": "2026-11-19",
+          "after": "GTA 6"
+        },
+        "post_games": [
+          {
+            "until": "2026-11-18",
+            "games": [
+              "GTA 5"
+            ]
+          },
+          {
+            "from": "2026-11-19",
+            "games": [
+              "GTA 6",
+              "GTA 5"
+            ]
+          }
+        ],
+        "deal": {
+          "extra": 2,
+          "batch_by": "area",
+          "max_per_kind": 2
+        },
+        "variety": {
+          "structures": [
+            "ask-show",
+            "result-first",
+            "myth-check",
+            "three-tries",
+            "versus",
+            "secret-tour"
+          ],
+          "structure_share": 0.34,
+          "area_share": 0.34,
+          "neighbours_differ": true,
+          "opener_days": 14,
+          "verdict_similar": 0.8,
+          "verdict_window": 30
+        },
+        "same_day_lead_hours": 2,
+        "render_timeout_minutes": 45,
+        "unconfirmed_stale_days": 7,
+        "inbox_extra": []
+      },
+      "_lab_note": "The Lab's own settings (clipfactory/lab.py). bank: the test bank in the account folder, written only through factory.py lab and the Lab tab. capture_root: the raw takes, OUTSIDE the Desktop (iCloud syncs it; 4K HEVC runs 18 to 27 GB an hour), linked into the account folder as capture_link. obs: OBS's websocket settings and password (mode 600; factory.py lab obs-setup). capture_hours: Record works only then, clear of the night shift. take_warn_minutes / take_stop_minutes: a forgotten take is warned about, then stopped. free_gb: Record refuses under refuse, warns under warn. dropped_frames: shares of OBS's skipped frames that warn and suggest Redo. game_by_date: the game a test is recorded in by date (moving GTA 6's launch is this date, post_games, the volume rule's from/until and the kit's posting.game_by_date.from; doctor says when they differ). post_games: which games' tests fill a day's slots, first first. deal: how many tests the Lab tab asks for beyond the day's need, batched by area, at most max_per_kind of one kind. variety: YouTube's inauthentic-content rule (the maker's day and the script check). same_day_lead_hours: a same-day slot is made only this far ahead. unconfirmed_stale_days: a take with no confirmed outcome this old is said in red. inbox_extra: watched folders (an Xbox OneDrive folder) whose takes are COPIED into the untagged list, never moved."
+    },
+    "cars": {
+      "name": "Cars",
+      "handle": "@cars",
+      "short": "Garage",
+      "active": true,
+      "auto_sign": {
+        "on": false
+      },
+      "_on_note": "ON 2026-10-29 (Andrew: \"let's get all the four accounts loaded up into Clipper view... so we can start posting going forward\"): on Clip Review, YouTube, Facebook and Instagram post by the API once a clip is signed; TikTok by hand (no TikTok account yet). maker \"garage\" since the night maker landed (was \"hand\": nothing cut for it; a finished edit dropped in ~/Desktop/Clip Drop/Cars still takes an open slot): its 21:00 nightly makes the next day's edits. auto_sign off: every clip waits for Andrew's Approve.",
+      "_note": "2026-10-29 (Andrew: Cars = GTA channel 3, every vehicle, one per clip; GTA 5 now, GTA 6 from the 2026-11-19 launch). Accounts made 10.29: YouTube @Cars (phone-verified), Facebook Page Cars (address-bar id 1000000000000004), Instagram @cars (Creator, linked), Meta portfolio 'Cars | GTA Cars' (1000000000000005), app 'Clip Factory Cars' 1000000000000006, system user 'Cars poster' 1000000000000007. Added SWITCHED OFF so connect can save its sign-ins; its own maker (car edits, not the gta GAMEPLAY lane), kit, folder, roster and scout come with the GTA workflow redo. Every outlet is export until connected and Andrew switches it on. Setup log: Desktop/CLIP FACTORY/Cars Setup 10.29/CHECKLIST.md.",
+      "links": {
+        "youtube_shorts": "https://www.youtube.com/@Cars",
+        "instagram_reels": "https://www.instagram.com/cars/",
+        "facebook_reels": "https://www.facebook.com/1000000000000004"
+      },
+      "signed_by_hand_stays": true,
+      "maker": "garage",
+      "kit": "cars",
+      "job_tag": "garage",
+      "scout_minute": 58,
+      "skill_dir": "~/.claude/skills/gaming",
+      "account_dir": "~/Desktop/Andrew Johnson/Cars",
+      "delivered": [],
+      "slots": ["07:05", "08:00", "09:35", "11:25", "13:05", "14:55", "16:20", "18:35", "19:45", "21:10"],
+      "_slots_note": "2026-10-29: its own minutes (the GTA setup chat, 13:32: unique, 15+ minutes from every Politics slot), four moved on switch-on (08:05 08:00, 11:35 11:25, 16:35 16:20, 20:05 19:45) so each is also 20+ minutes from the Politics's spare times (08:20 11:50 16:45 20:15 22:30, off since 10-27; tests/test_spare_slots.py) and 10+ from every Politics slot.",
+      "daily_target": 8,
+      "volume": [
+        {
+          "from": "2026-10-30",
+          "until": "2026-11-18",
+          "slots": ["07:05", "09:35", "13:05", "16:20", "18:35", "21:10"],
+          "why": "6 a day before GTA 6: car, bike, car, air, boat, wildcard"
+        },
+        {
+          "from": "2026-11-19",
+          "slots": ["07:05", "09:35", "11:25", "13:05", "14:55", "16:20", "18:35", "21:10"],
+          "why": "8 a day from the GTA 6 launch: a third car and a military vehicle join"
+        }
+      ],
+      "_volume_note": "2026-10-29 (Andrew: \"It's 6 to 8 for every account... Every clip, every account will post starting at like 6:30 in the morning\"; \"Cars is at night\"): 6 a day spread 07:05 to 21:10 until the launch, 8 from 2026-11-19, made by the night maker (maker \"garage\"). 07:05 and 21:10 are new minutes: each its own, 10+ from every Politics slot and 20+ from the Politics's spare times. daily_target 8 = the most a day ever has; youtube daily_budget 10 so 8 a day never waits on the rolling 24 hours. From the 10-30 board (Cars had no board yet when the maker was built).",
+      "garage": {
+        "prep_timeout_minutes": 30,
+        "render_timeout_minutes": 40,
+        "keep_work_days": 2,
+        "spares": 1,
+        "spares_until": "04:30"
+      },
+      "_garage_note": "2026-10-29: the night maker (clipfactory/garage.py, the engine in garage/). Per slot one vehicle from the day's mix in one of the eight formats, footage found and pulled from creators' videos outside the render queue, cut on our own beats (garage/bank) and checked in it, placed for Approve. python: the engine's interpreter (default ~/opt/anaconda3/bin/python3: numpy, OpenCV, SciPy). Song edits never come from here: a song is added in the app by hand. spares: after the day's slots, while the bench is under its low (4), one spare edit a night (none after spares_until), so the 06:18 bench fill has one for a slot the night left empty.",
+      "seconds": {
+        "min": 30,
+        "max": 60
+      },
+      "formats": [
+        "edit"
+      ],
+      "slot_formats": [
+        "edit"
+      ],
+      "clips_per_source": 3,
+      "platforms": [
+        "youtube_shorts",
+        "tiktok",
+        "facebook_reels",
+        "instagram_reels"
+      ],
+      "outlets": {
+        "youtube_shorts": {
+          "mode": "api",
+          "daily_budget": 10,
+          "upload_ahead_hours": 2,
+          "upload_gap_minutes": 3,
+          "tags_from_hashtags": true
+        },
+        "tiktok": {
+          "mode": "export",
+          "api_app_audited": false,
+          "scopes": "user.info.basic,video.publish"
+        },
+        "facebook_reels": {
+          "mode": "api"
+        },
+        "instagram_reels": {
+          "mode": "api"
+        }
+      },
+      "gta_maker": {
+        "spread": true,
+        "playing_kinds": [
+          "gameplay",
+          "streamer",
+          "physics"
+        ],
+        "skip_off_topic": true,
+        "skip_titles": "\\b(leak|leaks|leaked|leaker|leakers|leaking)\\b|\\bcyber ?leek|^(?=.*\\b(gta ?(6|vi)|grand theft auto ?(6|vi))\\b).*\\b(mods?|modded|modding|in gta ?(5|v)|in grand theft auto ?(5|v)|recreat(e|ed|es|ing|ion)|remake|remade|concept|fan ?made)\\b"
+      },
+      "_gta_maker_note": "spread as Gaming's; playing_kinds: the inbox kinds a GAMEPLAY slot takes (the watchlist's kinds gameplay, streamer, physics). One source video is cut for one GTA account only: the first to cut it wins. skip_off_topic (2026-10-19, the game switch): the night never cuts an inbox row whose title config/scout.json's stunts damp.off_topic turns down for the posting day, so its one dated phase (from 2026-11-19) switches the night with the scout: before it, a title naming GTA 6 and not GTA 5 (no GTA 6 gameplay exists yet); from it, a GTA 5 / Online title not naming GTA 6. skip_titles: the leak videos (Gaming's default, repeated here because a value here replaces it) and GTA 6 named on GTA 5 footage (a mod, a map, a remake, 'in GTA 5'), the same pattern the scout turns down x0.2.",
+      "bench": {
+        "fill": true,
+        "target": 6,
+        "low": 4,
+        "max": 8,
+        "evergreen_days": 30,
+        "until_cap": "2026-11-18",
+        "lead_minutes": 90,
+        "launch": "2026-11-19"
+      }
+    }
+  },
+  "_volume_how": "Per account (2026-10-20, Lab): \"volume\" is a list of dated rules, each {\"from\": YYYY-MM-DD or left out, \"until\": YYYY-MM-DD or left out, \"slots\": [the day's slots, a subset of \"slots\"], \"why\": a few words}. A NEW board for a day takes the first rule whose dates hold that day (no rule: the first daily_target slots, as every other account). No two rules may cover one day, and a bad rule stops the config with one line. A board keeps the slots it was made with: factory.py plan <account> --date D says when the rule differs, and --resync adds the missing slots as open and takes out open slots the rule no longer lists. daily_target stays the most a day ever has (the YouTube 24-hour cap reads it).",
+  "_outlets_how": "Per platform: \"export\" (SCHEDULE.csv + Ready to post folders) or \"api\" (posts by itself: YouTube at schedule time with publishAt, the others from `factory.py post-due` at the slot). Sign in first: factory.py connect youtube|meta|tiktok <account>. TikTok goes through Andrew's own app, AJJ Clip Factory (sent for TikTok's review 2026-10-17): \"export\" (by hand) until TikTok approves it, then \"api\" with \"api_app_audited\": true. Upload-Post (\"via\": \"upload-post\") is unused code. \"from\": an ISO time before which that outlet's slots stay by hand.",
+  "_posting_switches_how": "Owner switches (2026-10-17 audit; ON since that night, off when absent): signed_by_hand_stays (per account: a slot signed while a platform was by hand stays by hand after that platform switches to api), upload_ahead_hours + upload_gap_minutes (per youtube_shorts outlet: upload a slot only that close to its time, never two uploads closer than the gap), tags_from_hashtags (per youtube_shorts outlet: the description's hashtags become the video's tags), inbox_auto_sign (top level: false = a dropped clip waits for Approve)",
+  "_links_how": "Per account: short = its name on the Clip Review calendar and in the morning notice; links = its public profile on each platform, opened from the account's header in Clip Review.",
+  "_active_how": "Per account (2026-10-19): \"active\": false keeps the block while nothing is made, scheduled or posted for it (doctor lists what it still needs); no key = on. \"machine\": the computer that runs it (CLIP_FACTORY_MACHINE on that computer; no key = \"main\", this Mac). \"kit\": its brand kit in the skill (assets/brand/<kit>, presets/<kit>.json; Gaming's is gta). \"job_tag\": a word in its skill jobs' names (factory-<tag>-<date>-...). \"scout_minute\": the minute its hourly scout runs once it is switched on (a GTA account other than Gaming; without it, 6 minutes per place after Gaming's :40).",
+  "_social_how": "The social layer (Clip Review's Inbox, Cards, Reports and Log tabs; clipfactory/social.py) ships off for every account. Its switches are per account in state/<account>/social/settings.json: Clip Review, Log, Switches, or factory.py social on|off <account> <part>. Nothing in this file switches them. Stop everything on the Log tab halts every comment, reply, message, story and card; signed clips keep posting.",
+  "inbox_auto_sign": false,
+  "_inbox_auto_sign_note": "false since 2026-10-17 20:30 (Andrew: implement every audit call; call 2 'land drops as Ready'): a clip dropped in the drop folder waits in its slot as a ready clip until Andrew presses Approve (with the automatic sign-off on, it signs itself 30 minutes before its slot like every ready clip).",
+  "auto_sign": {
+    "on": true,
+    "lead_minutes": 30,
+    "late_hours": 3,
+    "cast_unchecked": "one",
+    "coach_gate": "shadow"
+  },
+  "_auto_sign_how": "The automatic sign-off (clipfactory/autosign.py), ON since 2026-10-19 (Andrew: 'Yes. Build the automatic sign-off: every clip that passed its checks signs itself 30 minutes before its slot, signed as the factory, not me. Clips naming 2 or more people nobody checked still wait for me.'). post-due (every 10 minutes) signs each ready clip lead_minutes before its slot as 'Clip Factory (auto)', the same signature and checks as Approve, never Andrew's name, never a cast.json verified. It skips a clip a person pulled (until a person approves it), a slot more than late_hours past, a Not them hold, a stand-in, and per cast_unchecked: one = a clip naming 2 or more people no person checked waits (one person named in the source title signs), all = those sign too, none = any unchecked cast waits. An account's own auto_sign block changes any key for it; a client account signs itself only by its own block. on false = Approve only (the old way). coach_gate (since 2026-10-30, the loops thesis item 1): shadow = the hook coach's one word on each clip that signs itself (PASS, FIX or KILL) is written to state/<slug>/coach/gate-shadow.jsonl and holds nothing; off = not looked at. Holding a FIX or KILL waits until the shadow nights are read."
+}

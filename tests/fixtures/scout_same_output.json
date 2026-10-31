@@ -1,0 +1,737 @@
+{
+ "politics": {
+  "finds": {
+   "ahouse00001": {
+    "age_h": 5,
+    "breaking": false,
+    "channel": "Politico",
+    "derivative": false,
+    "first_seen": "2031-03-04T18:00:00+00:00",
+    "given_rights": "network",
+    "heat": 0.451,
+    "heat_words": [
+     "heated"
+    ],
+    "id": "ahouse00001",
+    "kind": "article",
+    "lane": "story",
+    "people": [],
+    "published": "2031-03-04T15:00:00+00:00",
+    "rights": "network",
+    "score": 0.694,
+    "seen": [],
+    "shape": 1.0,
+    "source": "Politico",
+    "status": "new",
+    "story": 3,
+    "story_fresh": 1,
+    "story_outlets": 1,
+    "title": "House passes the spending bill after a heated night",
+    "url": "https://example.com/ahouse00001",
+    "vph_live": null,
+    "wave": 0,
+    "weight": 1.0
+   },
+   "hegs0000001": {
+    "age_h": 3,
+    "breaking": true,
+    "channel": "NBC News",
+    "channel_slug": null,
+    "derivative": false,
+    "duration": 600,
+    "first_seen": "2031-03-04T18:00:00+00:00",
+    "given_rights": null,
+    "heat": 0.451,
+    "heat_words": [
+     "grilled"
+    ],
+    "id": "hegs0000001",
+    "kind": "video",
+    "lane": "cut",
+    "people": [
+     "hegseth"
+    ],
+    "published": "2031-03-04T16:00:00+00:00",
+    "rights": "network",
+    "score": 7.273,
+    "seen": [
+     [
+      "2031-03-04T18:00:00+00:00",
+      450000
+     ]
+    ],
+    "shape": 1.0,
+    "short": false,
+    "source": "NBC News",
+    "status": "new",
+    "story": 4,
+    "story_fresh": 2,
+    "story_outlets": 2,
+    "title": "Hegseth grilled over boat strikes",
+    "url": "https://www.youtube.com/watch?v=hegs0000001",
+    "views": 450000,
+    "vph": 150000,
+    "vph_live": null,
+    "was_live": false,
+    "wave": 0,
+    "weight": 1.0
+   },
+   "hegs0000002": {
+    "age_h": 3,
+    "breaking": false,
+    "channel": "Fox News",
+    "channel_slug": null,
+    "derivative": false,
+    "duration": 600,
+    "first_seen": "2031-03-04T18:00:00+00:00",
+    "given_rights": null,
+    "heat": 0.451,
+    "heat_words": [
+     "grilled"
+    ],
+    "id": "hegs0000002",
+    "kind": "video",
+    "lane": "cut",
+    "people": [
+     "hegseth"
+    ],
+    "published": "2031-03-04T16:00:00+00:00",
+    "rights": "network",
+    "score": 6.467,
+    "seen": [
+     [
+      "2031-03-04T18:00:00+00:00",
+      120000
+     ]
+    ],
+    "shape": 1.0,
+    "short": false,
+    "source": "Fox News",
+    "status": "new",
+    "story": 4,
+    "story_fresh": 2,
+    "story_outlets": 2,
+    "title": "Hegseth grilled by senators over the boat strikes",
+    "url": "https://www.youtube.com/watch?v=hegs0000002",
+    "views": 120000,
+    "vph": 40000,
+    "vph_live": null,
+    "was_live": false,
+    "wave": 0,
+    "weight": 1.0
+   },
+   "paris000001": {
+    "age_h": 3,
+    "breaking": false,
+    "channel": "CBS News",
+    "channel_slug": null,
+    "derivative": false,
+    "duration": 600,
+    "first_seen": "2031-03-04T18:00:00+00:00",
+    "given_rights": null,
+    "heat": 0.451,
+    "heat_words": [
+     "clashes"
+    ],
+    "id": "paris000001",
+    "kind": "video",
+    "lane": "cut",
+    "people": [
+     "trump"
+    ],
+    "published": "2031-03-04T16:00:00+00:00",
+    "rights": "network",
+    "score": 4.069,
+    "seen": [
+     [
+      "2031-03-04T18:00:00+00:00",
+      45000
+     ]
+    ],
+    "shape": 1.0,
+    "short": false,
+    "source": "CBS News",
+    "status": "new",
+    "story": 1,
+    "story_fresh": 1,
+    "story_outlets": 1,
+    "title": "Trump clashes with reporters in Paris",
+    "url": "https://www.youtube.com/watch?v=paris000001",
+    "views": 45000,
+    "vph": 15000,
+    "vph_live": null,
+    "was_live": false,
+    "wave": 0,
+    "weight": 1.0
+   },
+   "recap000001": {
+    "age_h": 4,
+    "breaking": false,
+    "channel": "CNN",
+    "channel_slug": null,
+    "derivative": true,
+    "duration": 600,
+    "first_seen": "2031-03-04T18:00:00+00:00",
+    "given_rights": null,
+    "heat": 0.0,
+    "heat_words": [],
+    "id": "recap000001",
+    "kind": "video",
+    "lane": "cut",
+    "people": [
+     "hegseth"
+    ],
+    "published": "2031-03-04T16:00:00+00:00",
+    "rights": "network",
+    "score": 0.581,
+    "seen": [
+     [
+      "2031-03-04T18:00:00+00:00",
+      80000
+     ]
+    ],
+    "shape": 0.35,
+    "short": false,
+    "source": "CNN",
+    "status": "new",
+    "story": 5,
+    "story_fresh": 1,
+    "story_outlets": 1,
+    "title": "Hegseth hearing recap: what it means",
+    "url": "https://www.youtube.com/watch?v=recap000001",
+    "views": 80000,
+    "vph": 20000,
+    "vph_live": null,
+    "was_live": false,
+    "wave": 0,
+    "weight": 1.0
+   },
+   "sched000001": {
+    "age_h": 1,
+    "breaking": false,
+    "channel": "Some Channel",
+    "channel_slug": null,
+    "derivative": false,
+    "duration": 600,
+    "first_seen": "2031-03-04T18:00:00+00:00",
+    "given_rights": null,
+    "heat": 0.0,
+    "heat_words": [],
+    "id": "sched000001",
+    "kind": "video",
+    "lane": "find original",
+    "people": [],
+    "published": "2031-03-04T16:00:00+00:00",
+    "rights": "reupload",
+    "score": 0.312,
+    "seen": [
+     [
+      "2031-03-04T18:00:00+00:00",
+      500
+     ]
+    ],
+    "shape": 0.4,
+    "short": false,
+    "source": "Some Channel",
+    "status": "new",
+    "story": 2,
+    "story_fresh": 0,
+    "story_outlets": 1,
+    "title": "BREAKING NEWS LIVE: committee schedule",
+    "url": "https://www.youtube.com/watch?v=sched000001",
+    "views": 500,
+    "vph": 500,
+    "vph_live": null,
+    "was_live": false,
+    "wave": 0,
+    "weight": 1.0
+   },
+   "warren00001": {
+    "age_h": 2,
+    "breaking": false,
+    "channel": "C-SPAN",
+    "channel_slug": null,
+    "derivative": false,
+    "duration": 600,
+    "first_seen": "2031-03-04T18:00:00+00:00",
+    "given_rights": null,
+    "heat": 0.777,
+    "heat_words": [
+     "yells",
+     "will not answer"
+    ],
+    "id": "warren00001",
+    "kind": "video",
+    "lane": "cut",
+    "people": [
+     "warren"
+    ],
+    "published": "2031-03-04T16:00:00+00:00",
+    "rights": "cspan",
+    "score": 12.367,
+    "seen": [
+     [
+      "2031-03-04T18:00:00+00:00",
+      40000
+     ]
+    ],
+    "shape": 1.4,
+    "short": false,
+    "source": "C-SPAN",
+    "status": "new",
+    "story": 0,
+    "story_fresh": 1,
+    "story_outlets": 1,
+    "title": "Warren yells at bank CEO who will not answer",
+    "url": "https://www.youtube.com/watch?v=warren00001",
+    "views": 40000,
+    "vph": 20000,
+    "vph_live": null,
+    "was_live": false,
+    "wave": 0,
+    "weight": 1.0
+   }
+  },
+  "md": "# Politics scout, Tue 04 Mar, 11:00 Mountain\n\n20 of 20 sources read, last 72 hours. Rerun: `python3 ~/clip-factory/factory.py scout politics`. Pick: `--pick ID --why \"...\"`, kill: `--kill ID [ID ...] --why \"...\"`.\n\nRights: **cut** finds can be cut as they are: a member's or a committee's own channel, or (since 2026-10-16) a network or C-SPAN copy, which runs with `analyze.py --rights rebroadcast` and may draw a Content ID claim. **find original** means an unknown channel's copy, often a re-cut and sometimes fake: find where it first aired.\n\n## Breaking now\n\n- **Hegseth grilled over boat strikes**: NBC News, 3h old, 150k views an hour, cut. https://www.youtube.com/watch?v=hegs0000001  `hegs0000001`\n\n## Fights\n\nThe heated ones: yelling, a clash, a refusal pressed, a meltdown. Ranked by score.\n\n- **Warren yells at bank CEO who will not answer**: C-SPAN (cspan), 2h old, 20k an hour, heat 0.78 (yells, will not answer). https://www.youtube.com/watch?v=warren00001  `warren00001`\n- **Hegseth grilled over boat strikes**: NBC News (network), 3h old, 150k an hour, heat 0.45 (grilled). https://www.youtube.com/watch?v=hegs0000001  `hegs0000001`\n- **Hegseth grilled by senators over the boat strikes**: Fox News (network), 3h old, 40k an hour, heat 0.45 (grilled). https://www.youtube.com/watch?v=hegs0000002  `hegs0000002`\n- **Trump clashes with reporters in Paris**: CBS News (network), 3h old, 15k an hour, heat 0.45 (clashes). https://www.youtube.com/watch?v=paris000001  `paris000001`\n\n## Top stories\n\nOne line per story; the outlets telling it, and its best video.\n\n- **Warren yells at bank CEO who will not answer**: 1 outlet(s), heat: will not answer, yells. Video to cut (cspan): C-SPAN https://www.youtube.com/watch?v=warren00001 `warren00001`\n- **Hegseth grilled over boat strikes**: 2 outlet(s), heat: grilled. Video to cut (network): NBC News https://www.youtube.com/watch?v=hegs0000001 `hegs0000001`\n- **Trump clashes with reporters in Paris**: 1 outlet(s), heat: clashes. Video to cut (network): CBS News https://www.youtube.com/watch?v=paris000001 `paris000001`\n- **House passes the spending bill after a heated night**: 1 outlet(s), heat: heated. No video yet: https://example.com/ahouse00001\n- **Hegseth hearing recap: what it means**: 1 outlet(s). Video to cut (network): CNN https://www.youtube.com/watch?v=recap000001 `recap000001`\n- **BREAKING NEWS LIVE: committee schedule**: 1 outlet(s). Video (reupload): Some Channel https://www.youtube.com/watch?v=sched000001 `sched000001`\n\n## Videos, ranked\n\n| score | age | views | an hour | channel | rights | lane | title | id |\n| ---: | ---: | ---: | ---: | --- | --- | --- | --- | --- |\n| 12.37 | 2h | 40k | 20k | C-SPAN | cspan | cut | [Warren yells at bank CEO who will not answer](https://www.youtube.com/watch?v=warren00001) | `warren00001` |\n| 7.27 | 3h | 450k | 150k | NBC News | network | cut | [Hegseth grilled over boat strikes](https://www.youtube.com/watch?v=hegs0000001) | `hegs0000001` |\n| 6.47 | 3h | 120k | 40k | Fox News | network | cut | [Hegseth grilled by senators over the boat strikes](https://www.youtube.com/watch?v=hegs0000002) | `hegs0000002` |\n| 4.07 | 3h | 45k | 15k | CBS News | network | cut | [Trump clashes with reporters in Paris](https://www.youtube.com/watch?v=paris000001) | `paris000001` |\n| 0.58 | 4h | 80k | 20k | CNN | network | cut | [Hegseth hearing recap: what it means](https://www.youtube.com/watch?v=recap000001) | `recap000001` |\n| 0.31 | 1h | 500 | 500 | Some Channel | reupload | find original | [BREAKING NEWS LIVE: committee schedule](https://www.youtube.com/watch?v=sched000001) | `sched000001` |\n\n## Headlines\n\n- House passes the spending bill after a heated night (Politico, 5h) https://example.com/ahouse00001\n",
+  "pool": [],
+  "stories": 6
+ },
+ "gaming": {
+  "finds": {
+   "adex0000001": {
+    "age_h": 4,
+    "breaking": false,
+    "channel": "Dexerto GTA",
+    "derivative": false,
+    "first_seen": "2031-03-04T18:00:00+00:00",
+    "given_rights": "network",
+    "heat": 0.451,
+    "heat_words": [
+     "release date"
+    ],
+    "id": "adex0000001",
+    "kind": "article",
+    "lane": "story",
+    "people": [],
+    "published": "2031-03-04T15:00:00+00:00",
+    "rights": "network",
+    "score": 0.721,
+    "seen": [],
+    "shape": 1.0,
+    "source": "Dexerto GTA",
+    "status": "new",
+    "story": 5,
+    "story_fresh": 1,
+    "story_outlets": 1,
+    "title": "Rockstar confirms GTA 6 release date again",
+    "url": "https://example.com/adex0000001",
+    "vph_live": null,
+    "wave": 0,
+    "weight": 1.0
+   },
+   "comp0000001": {
+    "age_h": 6,
+    "breaking": false,
+    "channel": "Reacts Daily",
+    "channel_slug": null,
+    "derivative": false,
+    "duration": 600,
+    "first_seen": "2031-03-04T18:00:00+00:00",
+    "given_rights": null,
+    "heat": 0.593,
+    "heat_words": [
+     "trailer",
+     "reaction"
+    ],
+    "id": "comp0000001",
+    "kind": "video",
+    "lane": "creator",
+    "people": [],
+    "published": "2031-03-04T16:00:00+00:00",
+    "rights": "other",
+    "score": 0.926,
+    "seen": [
+     [
+      "2031-03-04T18:00:00+00:00",
+      42000
+     ]
+    ],
+    "shape": 0.3,
+    "short": false,
+    "source": "Reacts Daily",
+    "status": "new",
+    "story": 8,
+    "story_fresh": 1,
+    "story_outlets": 1,
+    "title": "GTA 6 trailer 3 reaction compilation",
+    "url": "https://www.youtube.com/watch?v=comp0000001",
+    "views": 42000,
+    "vph": 7000,
+    "vph_live": null,
+    "was_live": false,
+    "wave": 3,
+    "weight": 1.0
+   },
+   "kai00000001": {
+    "age_h": 3,
+    "breaking": false,
+    "channel": "Kai Cenat",
+    "channel_slug": "kaicenat",
+    "derivative": false,
+    "duration": 900,
+    "first_seen": "2031-03-04T18:00:00+00:00",
+    "given_rights": "roster",
+    "heat": 0.65,
+    "heat_words": [
+     "trailer",
+     "reacts"
+    ],
+    "id": "kai00000001",
+    "kind": "video",
+    "lane": "roster",
+    "min_minutes": 5,
+    "people": [
+     "kai cenat"
+    ],
+    "published": "2031-03-04T16:00:00+00:00",
+    "rights": "roster",
+    "roster_kind": "streamer",
+    "score": 11.589,
+    "seen": [
+     [
+      "2031-03-04T18:00:00+00:00",
+      120000
+     ]
+    ],
+    "shape": 1.0,
+    "short": false,
+    "source": "Kai Cenat",
+    "status": "new",
+    "story": 0,
+    "story_fresh": 1,
+    "story_outlets": 1,
+    "title": "Kai Cenat Reacts To GTA 6 Trailer 3!",
+    "url": "https://www.youtube.com/watch?v=kai00000001",
+    "views": 120000,
+    "vph": 40000,
+    "vph_live": null,
+    "was_live": false,
+    "wave": 3,
+    "weight": 1.2
+   },
+   "leak0000001": {
+    "age_h": 5,
+    "breaking": false,
+    "channel": "Leak Hub",
+    "channel_slug": null,
+    "derivative": false,
+    "duration": 600,
+    "first_seen": "2031-03-04T18:00:00+00:00",
+    "given_rights": null,
+    "heat": 0.423,
+    "heat_words": [
+     "price"
+    ],
+    "id": "leak0000001",
+    "kind": "video",
+    "lane": "creator",
+    "people": [],
+    "published": "2031-03-04T16:00:00+00:00",
+    "rights": "other",
+    "score": 0.527,
+    "seen": [
+     [
+      "2031-03-04T18:00:00+00:00",
+      45000
+     ]
+    ],
+    "shape": 0.2,
+    "short": false,
+    "source": "Leak Hub",
+    "status": "new",
+    "story": 1,
+    "story_fresh": 1,
+    "story_outlets": 1,
+    "title": "GTA 6 Price LEAKED by an insider",
+    "url": "https://www.youtube.com/watch?v=leak0000001",
+    "views": 45000,
+    "vph": 9000,
+    "vph_live": null,
+    "was_live": false,
+    "wave": 0,
+    "weight": 1.0
+   },
+   "moist000001": {
+    "age_h": 2,
+    "breaking": true,
+    "channel": "penguinz0",
+    "channel_slug": null,
+    "derivative": false,
+    "duration": 600,
+    "first_seen": "2031-03-04T18:00:00+00:00",
+    "given_rights": null,
+    "heat": 0.393,
+    "heat_words": [
+     "hated"
+    ],
+    "id": "moist000001",
+    "kind": "video",
+    "lane": "creator",
+    "people": [
+     "penguinz0"
+    ],
+    "published": "2031-03-04T16:00:00+00:00",
+    "rights": "other",
+    "score": 5.803,
+    "seen": [
+     [
+      "2031-03-04T18:00:00+00:00",
+      120000
+     ]
+    ],
+    "shape": 1.0,
+    "short": false,
+    "source": "penguinz0",
+    "status": "new",
+    "story": 3,
+    "story_fresh": 1,
+    "story_outlets": 1,
+    "title": "I hated the GPS in GTA 6",
+    "url": "https://www.youtube.com/watch?v=moist000001",
+    "views": 120000,
+    "vph": 60000,
+    "vph_live": null,
+    "was_live": false,
+    "wave": 0,
+    "weight": 1.0
+   },
+   "rock0000001": {
+    "age_h": 1,
+    "breaking": true,
+    "channel": "Rockstar Games",
+    "channel_slug": null,
+    "derivative": false,
+    "duration": 150,
+    "first_seen": "2031-03-04T18:00:00+00:00",
+    "given_rights": null,
+    "heat": 0.393,
+    "heat_words": [
+     "trailer"
+    ],
+    "id": "rock0000001",
+    "kind": "video",
+    "lane": "creator",
+    "people": [],
+    "published": "2031-03-04T16:00:00+00:00",
+    "rights": "other",
+    "score": 4.067,
+    "seen": [
+     [
+      "2031-03-04T18:00:00+00:00",
+      300000
+     ]
+    ],
+    "shape": 1.0,
+    "short": false,
+    "source": "Rockstar Games",
+    "status": "new",
+    "story": 9,
+    "story_fresh": 1,
+    "story_outlets": 1,
+    "title": "Grand Theft Auto VI Trailer 3",
+    "url": "https://www.youtube.com/watch?v=rock0000001",
+    "views": 300000,
+    "vph": 300000,
+    "vph_live": null,
+    "was_live": false,
+    "wave": 0,
+    "weight": 1.0
+   },
+   "short000001": {
+    "age_h": 4,
+    "breaking": false,
+    "channel": "Clip Farm",
+    "channel_slug": null,
+    "derivative": false,
+    "duration": 45,
+    "first_seen": "2031-03-04T18:00:00+00:00",
+    "given_rights": null,
+    "heat": 0.0,
+    "heat_words": [],
+    "id": "short000001",
+    "kind": "video",
+    "lane": "creator",
+    "people": [],
+    "published": "2031-03-04T16:00:00+00:00",
+    "rights": "other",
+    "score": 0.114,
+    "seen": [
+     [
+      "2031-03-04T18:00:00+00:00",
+      20000
+     ]
+    ],
+    "shape": 0.12,
+    "short": true,
+    "source": "Clip Farm",
+    "status": "new",
+    "story": 7,
+    "story_fresh": 1,
+    "story_outlets": 1,
+    "title": "GTA 6 in 30 seconds #shorts #gta6 #gaming",
+    "url": "https://www.youtube.com/watch?v=short000001",
+    "views": 20000,
+    "vph": 5000,
+    "vph_live": null,
+    "was_live": false,
+    "wave": 0,
+    "weight": 1.0
+   },
+   "speirs00001": {
+    "age_h": 6,
+    "breaking": false,
+    "channel": "Speirs",
+    "channel_slug": "speirs",
+    "derivative": false,
+    "duration": 600,
+    "first_seen": "2031-03-04T18:00:00+00:00",
+    "given_rights": "roster",
+    "heat": 0.451,
+    "heat_words": [
+     "insane",
+     "police"
+    ],
+    "id": "speirs00001",
+    "kind": "video",
+    "lane": "roster",
+    "min_minutes": 5,
+    "people": [],
+    "published": "2031-03-04T16:00:00+00:00",
+    "rights": "roster",
+    "roster_kind": "physics",
+    "score": 0.567,
+    "seen": [
+     [
+      "2031-03-04T18:00:00+00:00",
+      15000
+     ]
+    ],
+    "shape": 0.25,
+    "short": false,
+    "source": "Speirs",
+    "status": "new",
+    "story": 2,
+    "story_fresh": 1,
+    "story_outlets": 1,
+    "title": "GTA 5 Online insane police chase",
+    "url": "https://www.youtube.com/watch?v=speirs00001",
+    "views": 15000,
+    "vph": 2500,
+    "vph_live": null,
+    "was_live": false,
+    "wave": 0,
+    "weight": 1.0
+   },
+   "tgg00000001": {
+    "age_h": 10,
+    "breaking": false,
+    "channel": "TGG",
+    "channel_slug": "tgg",
+    "derivative": false,
+    "duration": 1500,
+    "first_seen": "2031-03-04T18:00:00+00:00",
+    "given_rights": "roster",
+    "heat": 0.181,
+    "heat_words": [
+     "map"
+    ],
+    "id": "tgg00000001",
+    "kind": "video",
+    "lane": "roster",
+    "min_minutes": 5,
+    "people": [
+     "tgg"
+    ],
+    "published": "2031-03-04T16:00:00+00:00",
+    "rights": "roster",
+    "roster_kind": "breakdown",
+    "score": 1.713,
+    "seen": [
+     [
+      "2031-03-04T18:00:00+00:00",
+      30000
+     ]
+    ],
+    "shape": 1.0,
+    "short": false,
+    "source": "TGG",
+    "status": "new",
+    "story": 4,
+    "story_fresh": 0,
+    "story_outlets": 1,
+    "title": "GTA 6 map size compared to every GTA",
+    "url": "https://www.youtube.com/watch?v=tgg00000001",
+    "views": 30000,
+    "vph": 3000,
+    "vph_live": null,
+    "was_live": false,
+    "wave": 0,
+    "weight": 1.0
+   },
+   "xqc00000001": {
+    "age_h": 8,
+    "breaking": false,
+    "channel": "ImStillxQc",
+    "channel_slug": "imstillxqc",
+    "derivative": false,
+    "duration": 600,
+    "first_seen": "2031-03-04T18:00:00+00:00",
+    "given_rights": "roster",
+    "heat": 0.551,
+    "heat_words": [
+     "gameplay",
+     "reacts"
+    ],
+    "id": "xqc00000001",
+    "kind": "video",
+    "lane": "roster",
+    "min_minutes": 3,
+    "people": [
+     "xqc"
+    ],
+    "person": "xQc",
+    "published": "2031-03-04T16:00:00+00:00",
+    "rights": "roster",
+    "roster_kind": "reaction",
+    "score": 6.535,
+    "seen": [
+     [
+      "2031-03-04T18:00:00+00:00",
+      96000
+     ]
+    ],
+    "shape": 1.0,
+    "short": false,
+    "source": "ImStillxQc",
+    "status": "new",
+    "story": 6,
+    "story_fresh": 0,
+    "story_outlets": 1,
+    "title": "xQc reacts to GTA 6 gameplay",
+    "url": "https://www.youtube.com/watch?v=xqc00000001",
+    "views": 96000,
+    "vph": 12000,
+    "vph_live": null,
+    "was_live": false,
+    "wave": 3,
+    "weight": 1.0
+   }
+  },
+  "md": "# Gaming scout, Tue 04 Mar, 11:00 Mountain\n\n20 of 20 sources read, last 36 hours. Rerun: `python3 ~/clip-factory/factory.py scout gaming`. Pick: `--pick ID --why \"...\"`, kill: `--kill ID [ID ...] --why \"...\"`.\n\n**roster** finds can go straight to the inbox (the scout feeds the top ones itself). **creator** finds are outside the roster: a suggestion, and a name to add to the watchlist if it keeps showing up.\n\n## Breaking now\n\n- **I hated the GPS in GTA 6**: penguinz0, 2h old, 60k views an hour, creator. https://www.youtube.com/watch?v=moist000001  `moist000001`\n- **Grand Theft Auto VI Trailer 3**: Rockstar Games, 1h old, 300k views an hour, creator. https://www.youtube.com/watch?v=rock0000001  `rock0000001`\n\n## Hottest\n\nThe high-energy ones: a trailer, a reaction, a rage, a chase. Ranked by score.\n\n- **Kai Cenat Reacts To GTA 6 Trailer 3!**: Kai Cenat (roster), 3h old, 40k an hour, heat 0.65 (trailer, reacts). https://www.youtube.com/watch?v=kai00000001  `kai00000001`\n- **xQc reacts to GTA 6 gameplay**: ImStillxQc (roster), 8h old, 12k an hour, heat 0.55 (gameplay, reacts). https://www.youtube.com/watch?v=xqc00000001  `xqc00000001`\n- **GTA 6 trailer 3 reaction compilation**: Reacts Daily (other), 6h old, 7k an hour, heat 0.59 (trailer, reaction). https://www.youtube.com/watch?v=comp0000001  `comp0000001`\n- **GTA 5 Online insane police chase**: Speirs (roster), 6h old, 2k an hour, heat 0.45 (insane, police). https://www.youtube.com/watch?v=speirs00001  `speirs00001`\n\n## Top stories\n\nOne line per story; the outlets telling it, and its best video.\n\n- **Kai Cenat Reacts To GTA 6 Trailer 3!**: 1 outlet(s), heat: reacts, trailer. Video to cut (roster): Kai Cenat https://www.youtube.com/watch?v=kai00000001 `kai00000001`\n- **xQc reacts to GTA 6 gameplay**: 1 outlet(s), heat: gameplay, reacts. Video to cut (roster): ImStillxQc https://www.youtube.com/watch?v=xqc00000001 `xqc00000001`\n- **I hated the GPS in GTA 6**: 1 outlet(s), heat: hated. Video (other): penguinz0 https://www.youtube.com/watch?v=moist000001 `moist000001`\n- **Grand Theft Auto VI Trailer 3**: 1 outlet(s), heat: trailer. Video (other): Rockstar Games https://www.youtube.com/watch?v=rock0000001 `rock0000001`\n- **GTA 6 map size compared to every GTA**: 1 outlet(s), heat: map. Video to cut (roster): TGG https://www.youtube.com/watch?v=tgg00000001 `tgg00000001`\n- **GTA 6 trailer 3 reaction compilation**: 1 outlet(s), heat: reaction, trailer. Video (other): Reacts Daily https://www.youtube.com/watch?v=comp0000001 `comp0000001`\n- **Rockstar confirms GTA 6 release date again**: 1 outlet(s), heat: release date. No video yet: https://example.com/adex0000001\n- **GTA 5 Online insane police chase**: 1 outlet(s), heat: insane, police. Video to cut (roster): Speirs https://www.youtube.com/watch?v=speirs00001 `speirs00001`\n- **GTA 6 Price LEAKED by an insider**: 1 outlet(s), heat: price. Video (other): Leak Hub https://www.youtube.com/watch?v=leak0000001 `leak0000001`\n- **GTA 6 in 30 seconds #shorts #gta6 #gaming**: 1 outlet(s). Video (other): Clip Farm https://www.youtube.com/watch?v=short000001 `short000001`\n\n## Videos, ranked\n\n| score | age | views | an hour | channel | rights | lane | title | id |\n| ---: | ---: | ---: | ---: | --- | --- | --- | --- | --- |\n| 11.59 | 3h | 120k | 40k | Kai Cenat | roster | roster | [Kai Cenat Reacts To GTA 6 Trailer 3!](https://www.youtube.com/watch?v=kai00000001) | `kai00000001` |\n| 6.54 | 8h | 96k | 12k | ImStillxQc | roster | roster | [xQc reacts to GTA 6 gameplay](https://www.youtube.com/watch?v=xqc00000001) | `xqc00000001` |\n| 5.80 | 2h | 120k | 60k | penguinz0 | other | creator | [I hated the GPS in GTA 6](https://www.youtube.com/watch?v=moist000001) | `moist000001` |\n| 4.07 | 1h | 300k | 300k | Rockstar Games | other | creator | [Grand Theft Auto VI Trailer 3](https://www.youtube.com/watch?v=rock0000001) | `rock0000001` |\n| 1.71 | 10h | 30k | 3k | TGG | roster | roster | [GTA 6 map size compared to every GTA](https://www.youtube.com/watch?v=tgg00000001) | `tgg00000001` |\n| 0.93 | 6h | 42k | 7k | Reacts Daily | other | creator | [GTA 6 trailer 3 reaction compilation](https://www.youtube.com/watch?v=comp0000001) | `comp0000001` |\n| 0.57 | 6h | 15k | 2k | Speirs | roster | roster | [GTA 5 Online insane police chase](https://www.youtube.com/watch?v=speirs00001) | `speirs00001` |\n| 0.53 | 5h | 45k | 9k | Leak Hub | other | creator | [GTA 6 Price LEAKED by an insider](https://www.youtube.com/watch?v=leak0000001) | `leak0000001` |\n| 0.11 | 4h | 20k | 5k | Clip Farm | other | creator | [GTA 6 in 30 seconds #shorts #gta6 #gaming](https://www.youtube.com/watch?v=short000001) | `short000001` |\n\n## Headlines\n\n- Rockstar confirms GTA 6 release date again (Dexerto GTA, 4h) https://example.com/adex0000001\n",
+  "pool": [
+   "kai00000001",
+   "xqc00000001"
+  ],
+  "stories": 10
+ }
+}
